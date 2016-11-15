@@ -13,7 +13,6 @@ function getExercise(req,res){
         	res.status(200).json({
             message: 'success',
             exercise:exercise
-            console.log('test exercise');
         });
         }
 	})
