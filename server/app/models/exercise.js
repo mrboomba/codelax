@@ -5,6 +5,7 @@ var exerciseSchema = new mongoose.Schema({
     Title: {
         type:String
     },
+    Type:{enum:['fill','choice','compile']},
     No:{
     	type:Number,
     	unique:true

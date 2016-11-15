@@ -12,7 +12,7 @@ router.use(function timeLog(req, res, next) {
     next();
 });
 
-console.log('test router');
 router = require('./exercise')(router);
+router = require('./user')(router);
 module.exports = router;
 

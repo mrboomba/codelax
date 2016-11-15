@@ -1,5 +1,7 @@
 var Exercise = require('../app/models/exercise');
 
+
+//get exercise by param number
 function getExercise(req,res){
 	var number = req.params.number;
 
@@ -16,8 +18,8 @@ function getExercise(req,res){
         });
         }
 	})
-
 };
+
 
 module.exports = function(router) {
 

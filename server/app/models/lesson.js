@@ -5,6 +5,7 @@ var lessonSchema = new mongoose.Schema({
     Title: {
         type:String
     },
+    video:{type:String},
     No:{
     	type:Number,
     	unique:true
@@ -20,7 +21,7 @@ var lessonSchema = new mongoose.Schema({
     		type:String
     	},
     	fake:[{type:String}]
-    }],
+    }]
 
 });
 
