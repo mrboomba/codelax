@@ -31,9 +31,9 @@
 
     	#include <stdio.h>  
   
-			float temp_f;     /* degrees fahrenheit */  
-			float temp_c;     /* degrees centigrade */  
-			char line_text[50];        /* a line of input */  
+			float temp_f;     
+			float temp_c;     
+			char line_text[50];       
   
 	int main() {  
     	printf("Input a temperature (in Centigrade): ");  
@@ -51,20 +51,132 @@
     	fake:["50.0000","50.00000000","50.00000"]
     	}
     },{
-    	question:"asdsad",
-    	no:2,
-    	answer:"asdsadasd",
-    	Type:"choice",
-    	fake:["dfgd","asdsad","asd"]
+    	question:" โค้ดส่วนที่หายไปคือข้อใด
+
+         #include <stdio.h> 
+         int main() 
+ {
+    printf("######\n");
+    printf("#\n");
+    printf("#\n");
+    printf("#\n");
+    printf("#\n");
+    printf("#\n");
+
+    return(0);
+} 
+
+Output : 
+
+######
+#
+#
+######
+#
+#
+#",
+
+
+    	no:3,
+    	answer:"printf("######\n");",
+    	Type:"fill",
 
     },{
-    	question:"asdsad",
-    	no:2,
-    	answer:"asdsadasd",
-    	Type:"choice",
-    	fake:["dfgd","asdsad","asd"]
-
+    	question:" ผลลัพธ์คืออะไร
+        #include <stdio.h>   
+        int main()   
+ {  
+    char char1 = 'X';  
+    char char2 = 'M';  
+    char char3 = 'L';  
+  
+    printf("%The reverse of %c%c%c is %c%c%c\n",  
+        char1, char2, char3,  
+        char3, char2, char1);  
+  
+    return(0);  
+}  ",
+    	no:4,
+    	answer:"LMX",
+    	Type:"fill",
+    	
     	}
+        ,
+        {
+        question:"ตัวแปรใดเก็บตัวอักษร",
+        no:5,
+        answer:"string s = "815",
+        Type:"choice",
+        fake:["double d = 815","int m = 25","float pi = 3.14"]
+
+        }
+        ,
+        {
+        question:"
+
+        #include <stdio.h>   
+int main()  
+{  
+    int days, years, weeks;  
+  
+    days = 1329;   
+  
+    years = days/365;   
+    weeks = (days % 365)/7;  
+    days = days- ((years*365) + (weeks*7));  
+  
+    printf("Years: %d\n", years);  
+    printf("Weeks: %d\n", weeks);  
+    printf("Days: %d \n", days);  
+  
+    return 0;  
+}",
+        no:6,
+        answer:"Years: 3 
+                Weeks: 33 
+                Days: 3",
+        Type:"fill",
+        
+
+        }
+        ,
+        {
+        question:"จงแสดงลำดับในการดำเนินการของนิพจน์
+
+        x = 10 + 5 * 4 / 2 + 3 * (5-2)",
+        no:7,
+        answer:"()**/++",
+        Type:"choice",
+        fake:["()*/+*+ ","()+**/+","()++**/"]
+
+        }
+        ,
+        {
+        question:"คำสั่งที่ใช้ในการแสดงค่าของภาษาซีคือข้อใด",
+        no:8,
+        answer:"printf",
+        Type:"choice",
+        fake:["scanf","cin","cout"]
+
+        }
+        ,
+         {
+        question:"คำสั่งที่ใช้ในการรับค่าของภาษาซีคือข้อใด",
+        no:9,
+        answer:"scanf",
+        Type:"choice",
+        fake:["system.out.printf","printf","cout"]
+
+        }
+        ,
+         {
+        question:"library ใดสามารถใช้คำสั่ง pow();",
+        no:10,
+        answer:"Math.h",
+        Type:"choice",
+        fake:["time.h","stdio.h","headerfile.h"]
+
+        }
     	],
 
     {
