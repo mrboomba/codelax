@@ -41,4 +41,10 @@ var dataapirouter = require('./api/dataapi');
 app.use('/api/', dataapirouter);
 // launch ======================================================================
 app.listen(port);
-console.log('The magic happens on port ' + port);
+var initDB = require('./config/databaseinit');
+initDB.createDB().then(function(message) {
+	console.log('The magic happens on port ' + port);
+
+}).catch(function(error){
+    console.error('err ' + error);
+});
