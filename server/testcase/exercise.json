@@ -1,0 +1,96 @@
+[{
+	 Title: "Level1",
+    No:{
+    	type:Number,
+    	unique:true
+    },
+    Data: [{
+    	question:" จงหาผลลัพธ์ของโปรแกรมนี้
+    	#include<stdio.h>  
+		#include<stdlib.h>  
+  
+	int main ()  
+    {  
+        char input[] = "8.0 2.0";  
+        char * ptr_end;  
+        double x, y;  
+  
+        x = strtod (input,&ptr_end);  
+        y = strtod (ptr_end,NULL);  
+  
+        printf ("\nOutput= %.2lf\n\n", x/y);  
+  
+        return 0;  
+    }  ",
+    	no:1,
+    	answer:"4.0",
+    	Type:"choice",
+    	fake:["3.0","5.0","2.0"]
+    },{
+    	question:" จงหาผลลัพธ์ของโปรแกรมนี้ ถ้า input ที่ใส่เข้าไปมีค่าเท่ากับ 10
+
+    	#include <stdio.h>  
+  
+			float temp_f;     /* degrees fahrenheit */  
+			float temp_c;     /* degrees centigrade */  
+			char line_text[50];        /* a line of input */  
+  
+	int main() {  
+    	printf("Input a temperature (in Centigrade): ");  
+    	fgets(line_text, sizeof(line_text), stdin);  
+    	sscanf(line_text, "%.6f", &temp_c);  
+  
+    	temp_f = ((9.0 / 5.0) * temp_c) + 32.0;  
+    	printf("%f degrees Fahrenheit.\n", temp_f);  
+  
+    return(0);  
+}",
+    	no:2,
+    	answer:"50.000000",
+    	Type:"choice",
+    	fake:["50.0000","50.00000000","50.00000"]
+    	}
+    },{
+    	question:"asdsad",
+    	no:2,
+    	answer:"asdsadasd",
+    	Type:"choice",
+    	fake:["dfgd","asdsad","asd"]
+
+    },{
+    	question:"asdsad",
+    	no:2,
+    	answer:"asdsadasd",
+    	Type:"choice",
+    	fake:["dfgd","asdsad","asd"]
+
+    	}
+    	],
+
+    {
+     Title: {
+        type:String
+    },
+
+    Type:{enum:['fill','choice','compile']},
+    No:{
+    	type:Number,
+    	unique:true
+    },
+    Data: [{
+    	question:{
+    		type:String
+    	},
+    	no:{
+    		type:Number
+    	},
+    	answer:{
+    		type:String
+    	},
+    	fake:[{type:String}]
+    }],
+	
+},{
+
+
+	}]
