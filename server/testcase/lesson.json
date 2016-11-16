@@ -16,100 +16,310 @@
     video:"Lesson:Variables",
     No:1
     Data: [{
+        no:1,
     	question:"ข้อใดเรียงลำดับขนาดข้อมูลของตัวแปรจากน้อยไปมากได้ถูกต้อง ?",
-    	no:1,
     	answer:"char, unsigned int, float, double",
-    	fake:["double, float, long, unsigned int","long, unsigned long, float, double","unsigned int, char, float, double"]
+        fake:["double, float, long, unsigned int","long, unsigned long, float, double","unsigned int, char, float, double"]
+        
+        no:2,
+        question:"ถ้าต้องการเก็บข้อมูลเกี่ยวกับผลการเรียน เช่น 3.45 ควรกำหนดชนิดข้อมูลของตัวแปรดังข้อใด ? ",
+        answer:"float",
+        fake:["char","short","int"]
+
+        no:3,
+        question:"ข้อใดไม่ถูกต้องตามหลักการตั้งชื่อตัวแปร ?",
+        answer:"2Subjects",
+        fake:["day_of_week","FLOAT","num1"]
+
+        no:4,
+        question:"ถ้าหาก x มีค่าเท่ากับ 23.1234 และมีการทำคำสั่งต่อไปนี้ printf(""%1.2f"",x); ผลลัพธ์ที่ได้จะเท่ากับข้อใด?",
+        answer:"23.12",
+        fake:["2.31234","23.1234","2.31"]
+
+        no:5,
+        question:"ถ้าหากต้องการให้ฟังก์ชั่น printf() แสดงผลเป็นตัวอักขระ จะต้องใช้รหัสควบคุมตัวใด?",
+        answer:"%c",
+        fake:["%f","%s","%d"]
+
+
     }]
+
+
+   
 },{
     Title: "Loop",
     video:"Lesson:Loop",
     No:1
     Data: [{
-    	question:"ข้อใดต่อไปนี้ คือคำสั่งที่ต้องใช้หยุดการทำซ้ำและออกจากลูปของโปรแกรมได้ ? ",
     	no:1,
+        question:"ข้อใดต่อไปนี้ คือคำสั่งที่ต้องใช้หยุดการทำซ้ำและออกจากลูปของโปรแกรมได้ ? ",
     	answer:"break",
-    	fake:["","",""]
+    	fake:["continued","while","for"]
+
+        no:2,
+        question:"ข้อใดต่อไปนี้ คือ ลักษณะการทำงานของคำสั่งวนซ้ำ do-while ? ",
+        answer:"ทำงานตามคำสั่งก่อนจึงตรวจสอบเงื่อนไข",
+        fake:["ตรวจสอบเงื่อนก่อนก็ได้ หรือทำงานก่อนก็ได้",
+                "ทำงานและตรวจสอบเงื่อนไขพร้อมกัน","ตรวจสอบเงื่อนไขก่อนแล้วจึงทำงานต่อไป"]
+
+        no:3,
+        ques3tion:"ฟังก์ชั่น if-else ใช้กับเงื่อนไขแบบใด?",
+        answer:"เงื่อนไขเลือกทำสองทาง",
+        fake:["เงื่อนไขแบบทางเดียว","แบบไม่มีเงื่อนไข","เงื่อนไขเลือกทำหลายทาง"]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
     }]
 },{
-    Title: "If Statements",
-    video:"Lesson:If Statements",
+    Title: "Decision",
+    video:"Lesson:Decision",
     No:1
     Data: [{
-    	question:"",
-    	no:1,
-    	answer:"",
-    	fake:["","",""]
+    	
+        no:1,
+        question:"ข้อใดเป็นเงื่อนไขสำหรับใช้เป็นคำสั่งใน if ไม่ได้?",
+        answer:"",
+        fake:["","",""]
+
+        no:2,
+        question:"ข้อใดเป็นเงื่อนไขของ 'and'",
+        answer:"&&",
+        fake:["&","||","|&"]
+
+        no:3,
+        question:"ข้อใดเป็นเงื่อนไขสำหรับใช้เป็นคำสั่งใน if ไม่ได้?",
+        answer:"x += 1",
+        fake:["x && y =1","x > 1","x || y"]
+
+        no:4,
+        question:"คำสั่งใดต่อไปนี้ เป็นการตรวจสอบว่าตัวแปร x อยู่ในช่วงตั้งแต่ 20 ถึง 30?",
+        answer:"if((x>20) && (x<=30))",
+        fake:["if((x>19) && (x<=30))","if (20<x<30)","if((x<=30) && (x>20))"]
+
+        no:5,
+        question:"จากโปรแกรม ต้องกำหนดเงื่อนไขใดใน (…?…) โปรแกรมจะพิมพ์คำว่า “good bye”
+int x=5, y=3 ;
+
+if (…?…) {
+
+printf(“positive\n”);
+
+}
+
+printf(“good bye”);
+
+}",
+        answer:"x <= y",
+        fake:["x != y","x > y","x > 0"]
+
     }]
+
+
 },{
-    Title: "Switch case",
-    video:"Lesson:Switch case",
+    Title: "Function and scope",
+    video:"Lesson:Function and scope",
     No:1
     Data: [{
-    	question:"",
     	no:1,
-    	answer:"",
-    	fake:["","",""]
-    }]
-},{
-    Title: "Pointers",
-    video:"Lesson:Pointers",
-    No:1
-    Data: [{
-    	question:"",
-    	no:1,
-    	answer:"",
-    	fake:["","",""]
+        question:"#include<stdio.h>
+
+            main() 
+            {
+                    int x = 5;
+   
+                    if(x==5)
+                    {    
+                        if(x==5) break;
+                        printf("Hello");
+                     } 
+                printf("Hi");
+            }",
+        answer:"compile error",
+        fake:["Hi","Hello","HiHello"]
+
+        no:2,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:3,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+
+
     }]
 },{
     Title: "Arrays",
     video:"Lesson:Arrays",
     No:1
     Data: [{
-    	question:"",
     	no:1,
-    	answer:"",
-    	fake:["","",""]
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:2,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:3,
+        ques3tion:"",
+        answer:"",
+        fake:["","",""]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
     }]
 },{
-    Title: "Typecasting",
-    video:"Lesson:Typecasting",
+    Title: "Pointer",
+    video:"Lesson:Pointer",
     No:1
     Data: [{
-    	question:"",
     	no:1,
-    	answer:"",
-    	fake:["","",""]
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:2,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:3,
+        ques3tion:"",
+        answer:"",
+        fake:["","",""]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
     }]
+
 },{
-    Title: "C File I/O",
-    video:"Lesson:C File I/O",
+    Title: "Dynamic Allocation",
+    video:"Lesson:Dynamic Allocation",
     No:1
     Data: [{
-    	question:"",
-    	no:1,
-    	answer:"",
-    	fake:["","",""]
+        no:1,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:2,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:3,
+        ques3tion:"",
+        answer:"",
+        fake:["","",""]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
     }]
-},{
-    Title: "Functions",
-    video:"Lesson:Functions",
-    No:1
-    Data: [{
-    	question:"",
-    	no:1,
-    	answer:"",
-    	fake:["","",""]
-    }]
+
+
 },{
     Title: "Recursion",
     video:"Lesson:Recursion",
     No:1
     Data: [{
-    	question:"",
     	no:1,
-    	answer:"",
-    	fake:["","",""]
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:2,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:3,
+        ques3tion:"",
+        answer:"",
+        fake:["","",""]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
     }]
+    },{
+    Title: "File",
+    video:"Lesson:File",
+    No:1
+    Data: [{
+       no:1,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:2,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:3,
+        ques3tion:"",
+        answer:"",
+        fake:["","",""]
+
+        no:4,
+        question:"",
+        answer:"",
+        fake:["","",""]
+
+        no:5,
+        question:"",
+        answer:"",
+        fake:["","",""]
+    }]
+
 }
 }]
