@@ -1,3 +1,115 @@
 [{
-	Title:
-	}]
+	Title:"Flowchart",
+    video:{type:"Lesson:Flowchart"},
+    No:1,
+    Data: [{
+
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    
+    }]
+},{
+
+    Title: "Variables and Data type",
+    video:"Lesson:Variables",
+    No:1
+    Data: [{
+    	question:"ข้อใดเรียงลำดับขนาดข้อมูลของตัวแปรจากน้อยไปมากได้ถูกต้อง ?",
+    	no:1,
+    	answer:"char, unsigned int, float, double",
+    	fake:["double, float, long, unsigned int","long, unsigned long, float, double","unsigned int, char, float, double"]
+    }]
+},{
+    Title: "Loop",
+    video:"Lesson:Loop",
+    No:1
+    Data: [{
+    	question:"ข้อใดต่อไปนี้ คือคำสั่งที่ต้องใช้หยุดการทำซ้ำและออกจากลูปของโปรแกรมได้ ? ",
+    	no:1,
+    	answer:"break",
+    	fake:["","",""]
+    }]
+},{
+    Title: "If Statements",
+    video:"Lesson:If Statements",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "Switch case",
+    video:"Lesson:Switch case",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "Pointers",
+    video:"Lesson:Pointers",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "Arrays",
+    video:"Lesson:Arrays",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "Typecasting",
+    video:"Lesson:Typecasting",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "C File I/O",
+    video:"Lesson:C File I/O",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "Functions",
+    video:"Lesson:Functions",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+},{
+    Title: "Recursion",
+    video:"Lesson:Recursion",
+    No:1
+    Data: [{
+    	question:"",
+    	no:1,
+    	answer:"",
+    	fake:["","",""]
+    }]
+}
+}]

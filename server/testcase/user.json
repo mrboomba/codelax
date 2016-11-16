@@ -1,0 +1,28 @@
+[{
+	    auth: {
+        username: "",
+        password: String,
+        token: String
+    },
+    information: {
+        name: {
+            firstname: String,
+            lastname: String
+        },
+        exercise:{
+            type: Number,
+            defualt: 0
+        },
+        lesson:{
+            type: Number,
+            defualt: 0
+        },
+        acheivement:[{
+            type:  mongoose.Schema.Types.ObjectId,
+            ref: 'Acheivement'
+        }]
+    },
+    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+
+
+}]
