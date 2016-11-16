@@ -1,9 +1,6 @@
 [{
 	 Title: "Level1",
-    No:{
-    	type:Number,
-    	unique:true
-    },
+    No:Level1,
     Data: [{
     	question:" จงหาผลลัพธ์ของโปรแกรมนี้
     	#include<stdio.h>  
@@ -26,7 +23,11 @@
     	answer:"4.0",
     	Type:"choice",
     	fake:["3.0","5.0","2.0"]
-    },{
+    }//end no1
+    ,
+
+    //start no2
+    {
     	question:" จงหาผลลัพธ์ของโปรแกรมนี้ ถ้า input ที่ใส่เข้าไปมีค่าเท่ากับ 10
 
     	#include <stdio.h>  
@@ -49,8 +50,10 @@
     	answer:"50.000000",
     	Type:"choice",
     	fake:["50.0000","50.00000000","50.00000"]
-    	}
-    },{
+    }//end no2
+    ,
+    //start no3
+    {
     	question:" โค้ดส่วนที่หายไปคือข้อใด
 
          #include <stdio.h> 
@@ -81,7 +84,10 @@ Output :
     	answer:"printf("######\n");",
     	Type:"fill",
 
-    },{
+    }// end no3
+    ,
+    //start no4
+    {
     	question:" ผลลัพธ์คืออะไร
         #include <stdio.h>   
         int main()   
@@ -100,18 +106,20 @@ Output :
     	answer:"LMX",
     	Type:"fill",
     	
-    	}
-        ,
-        {
+    }//end no4
+    ,
+    //start no5
+    {
         question:"ตัวแปรใดเก็บตัวอักษร",
         no:5,
         answer:"string s = "815",
         Type:"choice",
         fake:["double d = 815","int m = 25","float pi = 3.14"]
 
-        }
-        ,
-        {
+    } //end no5
+    ,
+    //start no6
+    {
         question:"
 
         #include <stdio.h>   
@@ -138,9 +146,10 @@ int main()
         Type:"fill",
         
 
-        }
-        ,
-        {
+    }//end no6
+    ,
+    //start no7
+    {
         question:"จงแสดงลำดับในการดำเนินการของนิพจน์
 
         x = 10 + 5 * 4 / 2 + 3 * (5-2)",
@@ -149,35 +158,40 @@ int main()
         Type:"choice",
         fake:["()*/+*+ ","()+**/+","()++**/"]
 
-        }
-        ,
-        {
+    }//end no7
+        
+    ,
+    //start no8
+    {
         question:"คำสั่งที่ใช้ในการแสดงค่าของภาษาซีคือข้อใด",
         no:8,
         answer:"printf",
         Type:"choice",
         fake:["scanf","cin","cout"]
 
-        }
-        ,
-         {
+    }//end no8
+    ,
+    //start no9
+    {
         question:"คำสั่งที่ใช้ในการรับค่าของภาษาซีคือข้อใด",
         no:9,
         answer:"scanf",
         Type:"choice",
         fake:["system.out.printf","printf","cout"]
 
-        }
-        ,
-         {
+    }//end no9
+    ,
+    start no10
+    {
         question:"library ใดสามารถใช้คำสั่ง pow();",
         no:10,
         answer:"Math.h",
         Type:"choice",
         fake:["time.h","stdio.h","headerfile.h"]
 
-        }
-    	],
+    }
+    //end no10
+    	]},
 
     {
      Title: {
