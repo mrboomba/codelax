@@ -1,0 +1,50 @@
+[{
+	"title":"Flowchart",
+    "image":{type:String},
+    "description":"You passed the beginner of Coding."
+
+
+
+},
+{
+	"title":"If-Statements",
+    "image":{type:String},
+    "description":"You passed Flowchart lesson and next is loop."
+
+
+
+},
+{
+	"title":"Loop",
+    "image":{type:String},
+    "description":"You passed Flowchart and If-Statements."
+
+
+},
+{
+	"title":"Pointer",
+    "image":{type:String},
+    "description":"You passed Flowchart, If-Statements and Loops"
+
+
+
+},
+{
+	"title":"Functions",
+    "image":{type:String},
+    "description":"You passed Flowchart, If-Statements,Loops and Pointer."
+
+},
+{
+	"title":"Arrays",
+    "image":{type:String},
+    "description":"You passed Flowchart, If-Statements, Loops, Pointer and Functions."
+
+},
+{
+	"title":"TextFile Processing",
+    "image":{type:String},
+    "description":"You passed Flowchart,If-Statements, Loops, Pointer, Functions and Arrays."
+},
+
+]
