@@ -14,5 +14,6 @@ router.use(function timeLog(req, res, next) {
 
 router = require('./exercise')(router);
 router = require('./user')(router);
+router = require('./testpic')(router);
 module.exports = router;
 
