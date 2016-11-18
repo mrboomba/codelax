@@ -1,13 +1,93 @@
 [{
-	    auth: {
-        username: "",
-        password: String,
-        token: String
+	    "auth": {
+            username: "5709612120",
+            password: "5709612120",
     },
     information: {
         name: {
-            firstname: String,
-            lastname: String
+            firstname: Thitirat,
+            lastname: Thongthaew
+        },
+        exercise:{
+            type: Number,
+            defualt: 0
+        },
+        lesson:{
+            type: Number,
+            defualt: 0
+        },
+        acheivement:[{
+            type:  mongoose.Schema.Types.ObjectId,
+            ref: 'Acheivement'
+        }]
+    },
+    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+
+
+},
+{
+        "auth": {
+            username: "5709611676",
+            password: "5709611676",
+    },
+    information: {
+        name: {
+            firstname: Nutchaya,
+            lastname: Chuealee
+        },
+        exercise:{
+            type: Number,
+            defualt: 0
+        },
+        lesson:{
+            type: Number,
+            defualt: 0
+        },
+        acheivement:[{
+            type:  mongoose.Schema.Types.ObjectId,
+            ref: 'Acheivement'
+        }]
+    },
+    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+
+
+},
+{
+        "auth": {
+            username: "5709611791",
+            password: "5709611791",
+    },
+    information: {
+        name: {
+            firstname: Thanavith,
+            lastname: Thanataweeroj
+        },
+        exercise:{
+            type: Number,
+            defualt: 0
+        },
+        lesson:{
+            type: Number,
+            defualt: 0
+        },
+        acheivement:[{
+            type:  mongoose.Schema.Types.ObjectId,
+            ref: 'Acheivement'
+        }]
+    },
+    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+
+
+},
+{
+        "auth": {
+            username: "5709611759",
+            password: "5709611759",
+    },
+    information: {
+        name: {
+            firstname: Patpimol,
+            lastname: Jamsirirojrat
         },
         exercise:{
             type: Number,
