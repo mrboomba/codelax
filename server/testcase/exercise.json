@@ -2,7 +2,7 @@
 	 Title: "Level1",
     No:Level1,
     Data: [{
-    	question:\\"จงหาผลลัพธ์ของโปรแกรมนี้
+    	question:"จงหาผลลัพธ์ของโปรแกรมนี้
     	#include<stdio.h>  
 		#include<stdlib.h>  
   
@@ -28,7 +28,7 @@
 
     //start no2
     {
-    	question:" จงหาผลลัพธ์ของโปรแกรมนี้ ถ้า input ที่ใส่เข้าไปมีค่าเท่ากับ 10
+    	question:"จงหาผลลัพธ์ของโปรแกรมนี้ ถ้า input ที่ใส่เข้าไปมีค่าเท่ากับ 10
 
     	#include <stdio.h>  
   
@@ -54,7 +54,7 @@
     ,
     //start no3
     {
-    	question:" โค้ดส่วนที่หายไปคือข้อใด
+    	question:"โค้ดส่วนที่หายไปคือข้อใด
 
          #include <stdio.h> 
          int main() 
@@ -88,7 +88,7 @@ Output :
     ,
     //start no4
     {
-    	question:" ผลลัพธ์คืออะไร
+    	question:"ผลลัพธ์คืออะไร
         #include <stdio.h>   
         int main()   
  {  
@@ -120,7 +120,7 @@ Output :
     ,
     //start no6
     {
-        question:"
+        question:"จงหาผลลัพธ์ของโปรแกรมนี้
 
         #include <stdio.h>   
 int main()  
