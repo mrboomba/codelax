@@ -10,19 +10,21 @@ var lessonModels = require('../app/models/lesson');
 
 function createDB() {
     return new Promise(function(resolve, reject) {
+      console.log(123);
         var exerciseJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/exercise.json', 'utf8'));
-        var lessonJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/lesson.json', 'utf8'));
-        var userJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/user.json', 'utf8'));
+        //var lessonJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/lesson.json', 'utf8'));
+       // var userJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/user.json', 'utf8'));
+        
        // userModels.remove({}, function(error) {
            // if (error) reject(error);
             exerciseModels.remove({}, function(error){
                 if (error) reject(error);
-             //   lessonModels.create(userJson, function(error) {
-              //      if (error) reject(error);
+               exerciseModels.create(exerciseJson, function(error) {
+                   if (error) reject(error);
                         resolve();
                     });
                 });
-           // });
+            });
        // });
 }
 

@@ -1,219 +1,52 @@
 [{
-	 Title: "Level1",
-    No:Level1,
-    Data: [{
-    	question:"จงหาผลลัพธ์ของโปรแกรมนี้
-    	#include<stdio.h>  
-		#include<stdlib.h>  
-  
-	int main ()  
-    {  
-        char input[] = \\"8.0 2.0\\";  
-        char * ptr_end;  
-        double x, y;  
-  
-        x = strtod (input,&ptr_end);  
-        y = strtod (ptr_end,NULL);  
-  
-        printf (\\"\nOutput= %.2lf\n\n\\", x/y);  
-  
-        return 0;  
-    }  ",
-    	no:1,
-    	answer:"4.0",
-    	Type:"choice",
-    	fake:["3.0","5.0","2.0"]
-    }//end no1
-    ,
-
-    //start no2
+	"Title": "Level1",
+    "No":1,
+    "Data": [
     {
-    	question:"จงหาผลลัพธ์ของโปรแกรมนี้ ถ้า input ที่ใส่เข้าไปมีค่าเท่ากับ 10
-
-    	#include <stdio.h>  
-  
-			float temp_f;     
-			float temp_c;     
-			char line_text[50];       
-  
-	int main() {  
-    	printf(\\"Input a temperature (in Centigrade): \\");  
-    	fgets(line_text, sizeof(line_text), stdin);  
-    	sscanf(line_text, \\"%.6f\\", &temp_c);  
-  
-    	temp_f = ((9.0 / 5.0) * temp_c) + 32.0;  
-    	printf(\\"%f degrees Fahrenheit.\n\\", temp_f);  
-  
-    return(0);  
-}",
-    	no:2,
-    	answer:"50.000000",
-    	Type:"choice",
-    	fake:["50.0000","50.00000000","50.00000"]
-    }//end no2
-    ,
-    //start no3
-    {
-    	question:"โค้ดส่วนที่หายไปคือข้อใด
-
-         #include <stdio.h> 
-         int main() 
- {
-    printf(\\"######\n\\");
-    printf(\\"#\n\\");
-    printf(\\"#\n\\");
-    printf(\\"#\n\\");
-    printf(\\"#\n\\");
-    printf(\\"#\n\\");
-
-    return(0);
-} 
-
-Output : 
-
-######
-#
-#
-######
-#
-#
-#",
-
-
-    	no:3,
-    	answer:"printf("######\n");",
-    	Type:"fill",
-
-    }// end no3
-    ,
-    //start no4
-    {
-    	question:"ผลลัพธ์คืออะไร
-        #include <stdio.h>   
-        int main()   
- {  
-    char char1 = 'X';  
-    char char2 = 'M';  
-    char char3 = 'L';  
-  
-    printf(\\"%The reverse of %c%c%c is %c%c%c\n\\",  
-        char1, char2, char3,  
-        char3, char2, char1);  
-  
-    return(0);  
-}  ",
-    	no:4,
-    	answer:"LMX",
-    	Type:"fill",
-    	
-    }//end no4
-    ,
-    //start no5
-    {
-        question:"ตัวแปรใดเก็บตัวอักษร",
-        no:5,
-        answer:"string s = "815",
-        Type:"choice",
-        fake:["double d = 815","int m = 25","float pi = 3.14"]
-
-    } //end no5
-    ,
-    //start no6
-    {
-        question:"จงหาผลลัพธ์ของโปรแกรมนี้
-
-        #include <stdio.h>   
-int main()  
-{  
-    int days, years, weeks;  
-  
-    days = 1329;   
-  
-    years = days/365;   
-    weeks = (days % 365)/7;  
-    days = days- ((years*365) + (weeks*7));  
-  
-    printf(\\"Years: %d\n\\", years);  
-    printf(\\"Weeks: %d\n\\", weeks);  
-    printf(\\"Days: %d \n\\", days);  
-  
-    return 0;  
-}",
-        no:6,
-        answer:"Years: 3 
-                Weeks: 33 
-                Days: 3",
-        Type:"fill",
-        
-
-    }//end no6
-    ,
-    //start no7
-    {
-        question:"จงแสดงลำดับในการดำเนินการของนิพจน์
-
-        x = 10 + 5 * 4 / 2 + 3 * (5-2)",
-        no:7,
-        answer:"()**/++",
-        Type:"choice",
-        fake:["()*/+*+ ","()+**/+","()++**/"]
-
-    }//end no7
-        
-    ,
-    //start no8
-    {
-        question:"คำสั่งที่ใช้ในการแสดงค่าของภาษาซีคือข้อใด",
-        no:8,
-        answer:"printf",
-        Type:"choice",
-        fake:["scanf","cin","cout"]
-
-    }//end no8
-    ,
-    //start no9
-    {
-        question:"คำสั่งที่ใช้ในการรับค่าของภาษาซีคือข้อใด",
-        no:9,
-        answer:"scanf",
-        Type:"choice",
-        fake:["system.out.printf","printf","cout"]
-
-    }//end no9
-    ,
-    start no10
-    {
-        question:"library ใดสามารถใช้คำสั่ง pow();",
-        no:10,
-        answer:"Math.h",
-        Type:"choice",
-        fake:["time.h","stdio.h","headerfile.h"]
+        "question":"คำสั่งที่ใช้ในการแสดงค่าของภาษาซีคือข้อใด",
+        "no":1,
+        "answer":"printf",
+        "Type":"choice",
+        "fake":["scanf","cin","cout"]
 
     }
-    //end no10
-    	]},
-
+    ,
+    
     {
-     Title: {
-        type:String
-    },
+        "question":"คำสั่งที่ใช้ในการรับค่าของภาษาซีคือข้อใด",
+        "no":2,
+        "answer":"scanf",
+        "Type":"choice",
+        "fake":["system.out.printf","printf","cout"]
 
-    Type:{enum:['fill','choice','compile']},
-    No:{
-    	type:Number,
-    	unique:true
-    },
-    Data: [{
-    	question:{
-    		type:String
-    	},
-    	no:{
-    		type:Number
-    	},
-    	answer:{
-    		type:String
-    	},
-    	fake:[{type:String}]
-    }]
-	
+    }
+    ,
+    {
+        "question":"library ใดสามารถใช้คำสั่ง pow();",
+        "no":3,
+        "answer":"Math.h",
+        "Type":"choice",
+        "fake":["time.h","stdio.h","headerfile.h"]
+
+    }
+     ,
+    {
+        "question":"ข้อใด ไม่ใช่ คำสั่งพรีโพรสเซสเซอร์ในภาษาซี",
+        "no":4,
+        "answer":"#error",
+        "Type":"choice",
+        "fake":["#include","#define","#const"]
+
+    }
+     ,
+    {
+        "question":"ข้อใด ไม่ใช่ ตัวดำเนินการเชิงตรรกะ",
+        "no":5,
+        "answer":"%",
+        "Type":"choice",
+        "fake":["&&","||","!"]
+
+    }
+    
+    ]
 }]
