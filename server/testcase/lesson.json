@@ -14,7 +14,7 @@
 
     Title: "Variables and Data type",
     video:"Lesson:Variables",
-    No:1
+    No:2
     Data: [{
         no:1,
     	question:"ข้อใดเรียงลำดับขนาดข้อมูลของตัวแปรจากน้อยไปมากได้ถูกต้อง ?",
@@ -49,7 +49,7 @@
 },{
     Title: "Loop",
     video:"Lesson:Loop",
-    No:1
+    No:3
     Data: [{
     	no:1,
         question:"ข้อใดต่อไปนี้ คือคำสั่งที่ต้องใช้หยุดการทำซ้ำและออกจากลูปของโปรแกรมได้ ? ",
@@ -80,7 +80,7 @@
 },{
     Title: "Decision",
     video:"Lesson:Decision",
-    No:1
+    No:4
     Data: [{
     	
         no:1,
@@ -125,7 +125,7 @@ printf(“good bye”);
 },{
     Title: "Function and scope",
     video:"Lesson:Function and scope",
-    No:1
+    No:5
     Data: [{
     	no:1,
         question:"#include<stdio.h>
@@ -145,24 +145,24 @@ printf(“good bye”);
         fake:["Hi","Hello","HiHello"]
 
         no:2,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ฟังก์ชันที่สร้างขึ้นเองในภาษาซี  แบ่งออกเป็นกี่ประเภท?",
+        answer:"3",
+        fake:["1","2","4"]
 
         no:3,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ฟังก์ชันที่ไม่มีการส่งค่าไปและไม่มีการส่งค่ากลับ  นิยมใช้กับงานประเภทใด?",
+        answer:"แสดงข้อความที่ใช้งานหลาย ๆ  ครั้ง",
+        fake:["คำนวณ","เปรียบเทียบ","งานแบบมีเงื่อนไข"]
 
         no:4,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ข้อใดถูกต้องในการเขียนรูปแบบโครงสร้างของฟังก์ชันที่มีการส่งค่าไปและไม่มีการส่งค่ากลับ?",
+        answer:"void function_name(type arg, …)",
+        fake:["int function_name(type  arg, …)","function_name(type arg, ….)","void function_name()"]
 
         no:5,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"การเขียนคำสั่งของฟังก์ชันที่สร้างขึ้นเองกรณีที่ไม่มีการประกาศฟังก์ชัน  ต้องเขียนในตำแหน่งใด?",
+        answer:"ก่อนฟังก์ชัน  main() ",
+        fake:["หลังฟังก์ชัน  main()","ภายในฟังก์ชัน  main()","ไม่มีคำตอบที่ถูกต้อง"]
 
 
 
@@ -170,68 +170,68 @@ printf(“good bye”);
 },{
     Title: "Arrays",
     video:"Lesson:Arrays",
-    No:1
+    No:6
     Data: [{
     	no:1,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"กำหนด  int a[5] = {15.5, 65.2, 45.8, 25.8, 10.4};   a[1]  มีค่าเท่าไร?",
+        answer:"62.5",
+        fake:["15.5","45.8","25.8"]
 
         no:2,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"กำหนด  float  b[2][5];  อาร์เรย์  b  มีจำนวนสมาชิกเท่าไร?",
+        answer:"10",
+        fake:["2","5","7"]
 
         no:3,
-        ques3tion:"",
-        answer:"",
-        fake:["","",""]
+        ques3tion:"กำหนด  char s1[9] = “LANGUAGE”;  ดังนั้น  s1  เป็นตัวแปรประเภทใด?",
+        answer:"ข้อความ",
+        fake:["ตัวอักขระ","ตัวเลขจำนวนเต็ม","ไม่มีคำตอบที่ถูกต้อง"]
 
         no:4,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ข้อใดกล่าวถึงตัวแปรอาร์เรย์ได้ถูกต้อง?",
+        answer:"ตัวแปรเดียวเก็บข้อมูลประเภทเดียวได้หลายชุด",
+        fake:["ตัวแปรเดียวเก็บข้อมูลได้หลายประเภท","ตัวแปรเดียวเก็บข้อมูลได้ชุดเดียว","ไม่มีคำตอบที่ถูกต้อง"]
 
         no:5,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"คำสั่งใดที่ใช้ในการนำข้อมูลเข้าไปเก็บในตัวแปรอาร์เรย์",
+        answer:"ถูกทุกข้อ",
+        fake:["while","do-while","for"]
     }]
 },{
     Title: "Pointer",
     video:"Lesson:Pointer",
-    No:1
+    No:7
     Data: [{
     	no:1,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ข้อใดเป็นรูปแบบที่ถูกต้องในการเข้าถึงข้อมูลในตำแหน่งที่เก็บไว้ในตัวแปรพอยน์เตอร์?",
+        answer:"variable_name = *pointer_name;",
+        fake:["variable_name = &pointer_name","variable_name = &pointer_name","variable_name = *pointer_name"]
 
         no:2,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"กำหนด  int a = 10, *pp, c;  pp = &a;  c = *pp;  ดังนั้น  c  มีค่าเท่าไร?",
+        answer:"ตำแหน่งในหน่วยความจำของ  a",
+        fake:["a","pp","ตำแหน่งในหน่วยความจำของ  pp"]
 
         no:3,
-        ques3tion:"",
-        answer:"",
-        fake:["","",""]
+        ques3tion:"กำหนด  int a = 10, *pp, c;  pp = &a;  c = *pp;  ตัวแปรพอยน์เตอร์  คือตัวแปรใด?",
+        answer:"pp",
+        fake:["a","c","ไม่มีคำตอบที่ถูกต้อง"]
 
         no:4,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"การกำหนดค่าให้กับตัวแปรพอยน์เตอร์  ใช้สัญลักษณ์อะไร?",
+        answer:"&",
+        fake:["%","*","!"]
 
         no:5,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ข้อใดเป็นการประกาศตัวแปรพอยน์เตอร์ชื่อ  ptr  เพื่อใช้เก็บตำแหน่งของข้อมูลประเภทข้อความ?",
+        answer:"string &ptr",
+        fake:["string  *ptr","char  *ptr","char  &ptr"]
     }]
 
 },{
     Title: "Dynamic Allocation",
     video:"Lesson:Dynamic Allocation",
-    No:1
+    No:8
     Data: [{
         no:1,
         question:"",
@@ -263,7 +263,7 @@ printf(“good bye”);
 },{
     Title: "Recursion",
     video:"Lesson:Recursion",
-    No:1
+    No:9
     Data: [{
     	no:1,
         question:"",
@@ -293,32 +293,32 @@ printf(“good bye”);
     },{
     Title: "File",
     video:"Lesson:File",
-    No:1
+    No:10
     Data: [{
        no:1,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ฟังก์ชันมาตรฐานในภาษาซี  ที่ใช้ในการเปิดไฟล์  คือฟังก์ชันอะไร?",
+        answer:"fopen()",
+        fake:["openf()","open()","fileopen()"]
 
         no:2,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ฟังก์ชันมาตรฐานในภาษาซี  ที่ใช้ในการปิดไฟล์  คือฟังก์ชันอะไร?",
+        answer:"fclose()",
+        fake:["closef()","closefile()","fileclose()"]
 
         no:3,
-        ques3tion:"",
-        answer:"",
-        fake:["","",""]
+        ques3tion:"ฟังก์ชันมาตรฐานในภาษาซี  ที่ใช้ในการอ่านข้อมูลประเภทความจากไฟล์  คือฟังก์ชันอะไร?",
+        answer:"fgets()",
+        fake:["getc()","fgetc()","gets()"]
 
         no:4,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"ฟังก์ชันมาตรฐานในภาษาซี  ที่ใช้ในการเขียนข้อมูลประเภทตัวอักขระลงไฟล์  คือฟังก์ชันอะไร?",
+        answer:"putc()",
+        fake:["putchar()","puts()","fputs()"]
 
         no:5,
-        question:"",
-        answer:"",
-        fake:["","",""]
+        question:"10. ฟังก์ชันมาตรฐานในภาษาซี  ที่ใช้ในการลบไฟล์ไฟล์  คือฟังก์ชันอะไร?",
+        answer:"delete()",
+        fake:["remove()","fdelete()","fremove()"]
     }]
 
 }
