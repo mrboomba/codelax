@@ -5,7 +5,6 @@ var exerciseSchema = new mongoose.Schema({
     Title: {
         type:String
     },
-    Type:{enum:['fill','choice','compile']},
     No:{
     	type:Number,
     	unique:true
@@ -22,6 +21,7 @@ var exerciseSchema = new mongoose.Schema({
     	},
     	fake:[{type:String}],
         img:{type:String},
+        Type:{enum:['fill','choice','compile']}
     }],
 
 });
