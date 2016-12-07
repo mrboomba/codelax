@@ -17,9 +17,12 @@ function createDB() {
         
        // userModels.remove({}, function(error) {
            // if (error) reject(error);
+           
             lessonModels.remove({}, function(error){
+
                 if (error) reject(error);
-               exerciseModels.create(lessonJson, function(error) {
+               lessonModels.create(lessonJson, function(error) {
+
                    if (error) reject(error);
                         resolve();
                     });
