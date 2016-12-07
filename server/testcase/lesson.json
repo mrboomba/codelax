@@ -252,7 +252,7 @@
         img:"recursion2.jpg"
 
         no:3,
-        ques3tion:"ผลลัพธืที่ได้จากการรันโปรแกรมนี้คือ?",
+        question:"ผลลัพธืที่ได้จากการรันโปรแกรมนี้คือ?",
         answer:"5",
         fake:"4",
         img:"recursion3.jpg"
