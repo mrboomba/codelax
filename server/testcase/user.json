@@ -1,108 +1,102 @@
 [{
 	    "auth": {
-            username: "5709612120",
-            password: "5709612120",
+            "username": "5709612120",
+            "password": "5709612120",
     },
-    information: {
-        name: {
-            firstname: Thitirat,
-            lastname: Thongthaew
+    "information": {
+        "name": {
+            "firstname": "Thitirat",
+            "lastname": "Thongthaew"
         },
-        exercise:{
-            type: Number,
-            defualt: 0
+        "challenge":{
+            
         },
-        lesson:{
-            type: Number,
-            defualt: 0
+        "lesson":{
+            "type": "Number",
+            "defualt": 0
         },
-        acheivement:[{
-            type:  mongoose.Schema.Types.ObjectId,
-            ref: 'Acheivement'
+        "acheivement":[{
+            "type":  "mongoose.Schema.Types.ObjectId",
+            "ref": "Acheivement"
         }]
     },
-    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+    "topic": [{"type:  mongoose.Schema.Types.ObjectId,ref : 'Topic'" }]
+
+
+},{
+       "auth": {
+            "username": "5709611676",
+            "password": "5709611676",
+    },
+    "information": {
+        "name": {
+            "firstname": "Nutchaya",
+            "lastname": "Chualee"
+        },
+        "challenge":{
+            
+        },
+        "lesson":{
+            "type": "Number",
+            "defualt": 0
+        },
+        "acheivement":[{
+            "type":  "mongoose.Schema.Types.ObjectId",
+            "ref": "Acheivement"
+        }]
+    },
+    "topic": [{"type:  mongoose.Schema.Types.ObjectId,ref : 'Topic'" }]
 
 
 },
 {
-        "auth": {
-            username: "5709611676",
-            password: "5709611676",
+      "auth": {
+            "username": "5709611759",
+            "password": "5709611759",
     },
-    information: {
-        name: {
-            firstname: Nutchaya,
-            lastname: Chuealee
+    "information": {
+        "name": {
+            "firstname": "Thanavith",
+            "lastname": "Thanataweeroj"
         },
-        exercise:{
-            type: Number,
-            defualt: 0
+        "challenge":{
+            
         },
-        lesson:{
-            type: Number,
-            defualt: 0
+        "lesson":{
+            "type": "Number",
+            "defualt": 0
         },
-        acheivement:[{
-            type:  mongoose.Schema.Types.ObjectId,
-            ref: 'Acheivement'
+        "acheivement":[{
+            "type":  "mongoose.Schema.Types.ObjectId",
+            "ref": "Acheivement"
         }]
     },
-    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+    "topic": [{"type:  mongoose.Schema.Types.ObjectId,ref : 'Topic'" }]
 
 
 },
 {
-        "auth": {
-            username: 5709611791,
-            password: 5709611791,
+       "auth": {
+            "username": "5709611791",
+            "password": "5709611791",
     },
-    information: {
-        name: {
-            firstname: Thanavith,
-            lastname: Thanataweeroj
+    "information": {
+        "name": {
+            "firstname": "Patpimol",
+            "lastname": "Jamsirirojrat"
         },
-        exercise:{
-            type: Number,
-            defualt: 0
+        "challenge":{
+            
         },
-        lesson:{
-            type: Number,
-            defualt: 0
+        "lesson":{
+            "type": "Number",
+            "defualt": 0
         },
-        acheivement:[{
-            type:  mongoose.Schema.Types.ObjectId,
-            ref: 'Acheivement'
+        "acheivement":[{
+            "type":  "mongoose.Schema.Types.ObjectId",
+            "ref": "Acheivement"
         }]
     },
-    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
-
-
-},
-{
-        "auth": {
-            username: "5709611759",
-            password: "5709611759",
-    },
-    information: {
-        name: {
-            firstname: "Patpimol",
-            lastname: "Jamsirirojrat"
-        },
-        exercise:{
-            type: Number,
-            defualt: 0
-        },
-        lesson:{
-            type: Number,
-            defualt: 0
-        },
-        acheivement:[{
-            type:  mongoose.Schema.Types.ObjectId,
-            ref: 'Acheivement'
-        }]
-    },
-    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
-
+    "topic": [{"type:  mongoose.Schema.Types.ObjectId,ref : 'Topic'" }]
 
 }]
