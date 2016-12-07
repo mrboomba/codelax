@@ -93,8 +93,7 @@
         fake:"ออกจากLoop และทำคำสั่งต่อไป"
 
         no:4,
-        question:"นิพจน์ที่ 1 (Expression 1)  ในวงเล็บหลัง
-       คำสั่ง  for  ทำหน้าที่อะไร?",
+        question:"นิพจน์ที่ 1 (Expression 1)  ในวงเล็บหลังคำสั่ง  for  ทำหน้าที่อะไร?",
         answer:"กำหนดค่าเริ่มต้นของตัวควบคุม",
         fake:"เปลี่ยนค่าตัวควบคุม"
 
@@ -213,7 +212,7 @@
     	no:1,
         question:"ข้อใดเป็นรูปแบบที่ถูกต้องในการเข้าถึงข้อมูลในตำแหน่งที่เก็บไว้ในตัวแปรพอยน์เตอร์?",
         answer:"variable_name = *pointer_name;",
-        fake:["variable_name = &pointer_name;"
+        fake:"variable_name = &pointer_name;"
 
         no:2,
         question:"กำหนด  int a = 10, *pp, c;  pp = &a;  c = *pp;  ดังนั้น  c  มีค่าเท่าไร?",
