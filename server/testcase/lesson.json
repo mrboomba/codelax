@@ -1,11 +1,11 @@
 [{
 	Title:"Flowchart",
-    video:{type:"Lesson:Flowchart"},
+    video:"pylB3rWEh6Q",
     No:1,
     Data: [{
 
-    	question:"",
     	no:1,
+        question:"",
     	answer:"",
     	fake:["","",""]
     
@@ -227,38 +227,6 @@ printf(“good bye”);
         answer:"string &ptr",
         fake:["string  *ptr","char  *ptr","char  &ptr"]
     }]
-
-},{
-    Title: "Dynamic Allocation",
-    video:"Lesson:Dynamic Allocation",
-    No:8
-    Data: [{
-        no:1,
-        question:"",
-        answer:"",
-        fake:["","",""]
-
-        no:2,
-        question:"",
-        answer:"",
-        fake:["","",""]
-
-        no:3,
-        ques3tion:"",
-        answer:"",
-        fake:["","",""]
-
-        no:4,
-        question:"",
-        answer:"",
-        fake:["","",""]
-
-        no:5,
-        question:"",
-        answer:"",
-        fake:["","",""]
-    }]
-
 
 },{
     Title: "Recursion",
