@@ -1,10 +1,11 @@
 [{
 	Title:"Flowchart",
-    video:{type:"Lesson:Flowchart"},
+    video:"pylB3rWEh6Q",
     No:1,
     Data: [{
 
     	no:1,
+<<<<<<< HEAD
         question:"สัญลักษณ์นี้คืออะไร?",
     	answer:"input (from Keyboard)",
     	fake:"input (from unknown device)",
@@ -33,6 +34,11 @@
         answer:"ฝนตกหรือไม่?",
         fake:"ฝนตกแล้ว",
         img:"flowchart5.jpg"
+=======
+        question:"",
+    	answer:"",
+    	fake:""
+>>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
     
     }]
 },{
@@ -131,7 +137,11 @@
         question:"จากโปรแกรม ต้องกำหนดเงื่อนไขใดใน (…?…) โปรแกรมจะพิมพ์คำว่า “good bye”",
         answer:"x <= y",
         fake:"x != y",
+<<<<<<< HEAD
         img:"decision5.jpg"
+=======
+        img:"dicisionnum5"
+>>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
 
     }]
 
@@ -142,10 +152,17 @@
     No:5
     Data: [{
     	no:1,
+<<<<<<< HEAD
         question:"จงหาผลลัพธ์จากโปรแกรมต่อไปนี้",
         answer:"compile error",
         fake:"HiHello",
         img:"function1.jpg"
+=======
+        question: "ผลลัพธ์ที่ได้จากโปรแกรมนี้คืออะไร",
+        answer:"compile error",
+        fake:"HiHello",
+        img:"scopnum1.jpg"
+>>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
 
 
         no:2,
@@ -165,7 +182,7 @@
 
         no:5,
         question:"การเขียนคำสั่งของฟังก์ชันที่สร้างขึ้นเองกรณีที่ไม่มีการประกาศฟังก์ชัน  ต้องเขียนในตำแหน่งใด?",
-        answer:"ก่อนฟังก์ชัน  main() ",
+        answer:"ก่อนฟังก์ชัน  main()",
         fake:"ภายในฟังก์ชัน  main()"
 
 
