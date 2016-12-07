@@ -2,12 +2,72 @@
 	"Title":"Flowchart",
     "video":"pylB3rWEh6Q",
     "No":1,
-    "Data": [
-         {
+    "Data": [{
+
+    	"no":1,
+        "question":"สัญลักษณ์นี้คืออะไร?",
+    	"answer":"input (from Keyboard)",
+    	"fake":"input (from unknown device)",
+        "img":"flowchart1.jpg"
+       },{
+        "no":2,
+        "question":"สัญลักษณ์นี้คืออะไร?",
+        "answer":"input (from unknown device)",
+        "fake":"input (from Keyboard)",
+        "img":"flowchart2.jpg"
+      },{
+
+        "no":3,
+        "question":"สัญลักษณ์นี้คืออะไร?",
+        "answer":"decision",
+        "fake":"output",
+        "img":"flowchart3.jpg"
+     },{
+
+        "no":4,
+        "question":"จงเติมคำตอบที่ถูกต้องใน(..?..)",
+        "answer":"จบ",
+        "fake":"กำหนดค่า",
+        "img":"flowchart4.jpg"
+      },{
+
+
         "no":5,
         "question":"จงเติมคำตอบที่ถูกต้องใน(..?..)",
         "answer":"ฝนตกหรือไม่?",
         "fake":"ฝนตกแล้ว",
         "img":"flowchart5.jpg"
      }]
+},{
+
+    "Title": "Variables and Data type",
+    "video":"vhV97hyV0fc",
+    "No":2,
+    "Data": [{
+        "no":1,
+    	"question":"ข้อใดเรียงลำดับขนาดข้อมูลของตัวแปรจากน้อยไปมากได้ถูกต้อง ?",
+    	"answer":"char, unsigned int, float, double",
+        "fake":"unsigned int, char, float, double"
+        },{
+        "no":2,
+        "question":"ถ้าต้องการเก็บข้อมูลเกี่ยวกับผลการเรียน เช่น 3.45 ควรกำหนดชนิดข้อมูลของตัวแปรดังข้อใด ? ",
+        "answer":"float",
+        "fake":"int"
+        },{
+        "no":3,
+        "question":"ข้อใดไม่ถูกต้องตามหลักการตั้งชื่อตัวแปร ?",
+        "answer":"2Subjects",
+       "fake":"num1"
+        },{
+        "no":4,
+        "question":"ถ้าหาก x มีค่าเท่ากับ 23.1234 และมีการทำคำสั่งต่อไปนี้ printf(%1.2f,x); ผลลัพธ์ที่ได้จะเท่ากับข้อใด?",
+        "answer":"23.12",
+        "fake":"2.31"
+        },{
+        "no":5,
+        "question":"ถ้าหากต้องการให้ฟังก์ชั่น printf() แสดงผลเป็นตัวอักขระ จะต้องใช้รหัสควบคุมตัวใด?",
+        "answer":"%c",
+        "fake":"%s"
+
+    }]
 }]
