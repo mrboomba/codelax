@@ -5,7 +5,6 @@
     Data: [{
 
     	no:1,
-<<<<<<< HEAD
         question:"สัญลักษณ์นี้คืออะไร?",
     	answer:"input (from Keyboard)",
     	fake:"input (from unknown device)",
