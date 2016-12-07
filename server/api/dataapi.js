@@ -12,7 +12,7 @@ router.use(function timeLog(req, res, next) {
     next();
 });
 
-router = require('./exercise')(router);
+router = require('./challenge')(router);
 router = require('./user')(router);
 router = require('./testpic')(router);
 module.exports = router;
