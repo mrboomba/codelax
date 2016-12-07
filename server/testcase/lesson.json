@@ -9,37 +9,36 @@
     	answer:"input (from Keyboard)",
     	fake:"input (from unknown device)",
         img:"flowchart1.jpg"
-
+        },
+        {
         no:2,
         question:"สัญลักษณ์นี้คืออะไร?",
         answer:"input (from unknown device)",
         fake:"input (from Keyboard)",
         img:"flowchart2.jpg"
+        },{
 
         no:3,
         question:"สัญลักษณ์นี้คืออะไร?",
         answer:"decision",
         fake:"output",
         img:"flowchart3.jpg"
+        },{
 
         no:4,
         question:"จงเติมคำตอบที่ถูกต้องใน(..?..)",
         answer:"จบ",
         fake:"กำหนดค่า",
         img:"flowchart4.jpg"
+        },{
 
         no:5,
         question:"จงเติมคำตอบที่ถูกต้องใน(..?..)",
         answer:"ฝนตกหรือไม่?",
         fake:"ฝนตกแล้ว",
         img:"flowchart5.jpg"
-=======
-        question:"",
-    	answer:"",
-    	fake:""
->>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
     
-    }]
+     }]
 },{
 
     Title: "Variables and Data type",
@@ -136,11 +135,8 @@
         question:"จากโปรแกรม ต้องกำหนดเงื่อนไขใดใน (…?…) โปรแกรมจะพิมพ์คำว่า “good bye”",
         answer:"x <= y",
         fake:"x != y",
-<<<<<<< HEAD
         img:"decision5.jpg"
-=======
-        img:"dicisionnum5"
->>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
+
 
     }]
 
@@ -151,18 +147,11 @@
     No:5
     Data: [{
     	no:1,
-<<<<<<< HEAD
+
         question:"จงหาผลลัพธ์จากโปรแกรมต่อไปนี้",
         answer:"compile error",
         fake:"HiHello",
         img:"function1.jpg"
-=======
-        question: "ผลลัพธ์ที่ได้จากโปรแกรมนี้คืออะไร",
-        answer:"compile error",
-        fake:"HiHello",
-        img:"scopnum1.jpg"
->>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
-
 
         no:2,
         question:"ฟังก์ชันที่สร้างขึ้นเองในภาษาซี  แบ่งออกเป็นกี่ประเภท?",

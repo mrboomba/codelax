@@ -1,4 +1,4 @@
-var Exercise = require('../app/models/exercise');
+var Exercise = require('../app/models/challenge');
 
 
 //get exercise by param number
