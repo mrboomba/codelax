@@ -31,12 +31,12 @@
         "img":"flowchart4.jpg"
       },{
 
+
         "no":5,
         "question":"จงเติมคำตอบที่ถูกต้องใน(..?..)",
         "answer":"ฝนตกหรือไม่?",
         "fake":"ฝนตกแล้ว",
         "img":"flowchart5.jpg"
-
      }]
 },{
 
@@ -70,7 +70,6 @@
         "fake":"%s"
 
     }]
-   
 },{
    "Title": "Loop",
     "video":"lRuZlNcxO5M",
