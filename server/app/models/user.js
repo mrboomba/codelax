@@ -14,9 +14,8 @@ var userSchema = new mongoose.Schema({
             firstname: String,
             lastname: String
         },
-        exercise:{
-            type: Number,
-            defualt: 0
+        challenge:{
+          
         },
         lesson:{
             type: Number,
