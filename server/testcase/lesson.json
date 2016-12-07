@@ -33,17 +33,13 @@
         answer:"ฝนตกหรือไม่?",
         fake:"ฝนตกแล้ว",
         img:"flowchart5.jpg"
-=======
-        question:"",
-    	answer:"",
-    	fake:""
->>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
+
     
     }]
 },{
 
     Title: "Variables and Data type",
-    video:"Lesson:Variables",
+    video:"vhV97hyV0fc",
     No:2
     Data: [{
         no:1,
@@ -75,7 +71,7 @@
    
 },{
     Title: "Loop",
-    video:"Lesson:Loop",
+    video:"lRuZlNcxO5M",
     No:3
     Data: [{
     	no:1,
@@ -108,7 +104,7 @@
 
 },{
     Title: "Decision",
-    video:"Lesson:Decision",
+    video:"xXA7P1oUO8o",
     No:4
     Data: [{
     	
@@ -136,32 +132,24 @@
         question:"จากโปรแกรม ต้องกำหนดเงื่อนไขใดใน (…?…) โปรแกรมจะพิมพ์คำว่า “good bye”",
         answer:"x <= y",
         fake:"x != y",
-<<<<<<< HEAD
-        img:"decision5.jpg"
-=======
         img:"dicisionnum5"
->>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
+
 
     }]
 
 
 },{
     Title: "Function and scope",
-    video:"Lesson:Function and scope",
+    video:"P4qi6kEIBOY",
     No:5
     Data: [{
     	no:1,
-<<<<<<< HEAD
-        question:"จงหาผลลัพธ์จากโปรแกรมต่อไปนี้",
-        answer:"compile error",
-        fake:"HiHello",
-        img:"function1.jpg"
-=======
+
         question: "ผลลัพธ์ที่ได้จากโปรแกรมนี้คืออะไร",
         answer:"compile error",
         fake:"HiHello",
         img:"scopnum1.jpg"
->>>>>>> a4469d4c2979e3d61408b5e7f5671563daa7a9de
+
 
 
         no:2,
@@ -189,7 +177,7 @@
     }]
 },{
     Title: "Arrays",
-    video:"Lesson:Arrays",
+    video:"OT9SMMuWtg8",
     No:6
     Data: [{
     	no:1,
@@ -219,7 +207,7 @@
     }]
 },{
     Title: "Pointer",
-    video:"Lesson:Pointer",
+    video:"687Xcc5ze5M",
     No:7
     Data: [{
     	no:1,
@@ -249,7 +237,7 @@
 
 },{
     Title: "Recursion",
-    video:"Lesson:Recursion",
+    video:"uxE-vpf70DE",
     No:9
     Data: [{
     	no:1,
@@ -284,7 +272,7 @@
     }]
 },{
     Title: "File",
-    video:"Lesson:File",
+    video:"_jhCvy8_lGE",
     No:10
     Data: [{
        no:1,
