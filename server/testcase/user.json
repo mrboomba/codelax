@@ -9,7 +9,8 @@
             "lastname": "Thongthaew"
         },
         "challenge":{
-            
+            "type": "Number",
+            "defualt": 0
         },
         "lesson":{
             "type": "Number",
