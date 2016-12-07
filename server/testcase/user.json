@@ -54,8 +54,8 @@
 },
 {
         "auth": {
-            username: "5709611791",
-            password: "5709611791",
+            username: 5709611791,
+            password: 5709611791,
     },
     information: {
         name: {
@@ -86,8 +86,8 @@
     },
     information: {
         name: {
-            firstname: Patpimol,
-            lastname: Jamsirirojrat
+            firstname: "Patpimol",
+            lastname: "Jamsirirojrat"
         },
         exercise:{
             type: Number,
