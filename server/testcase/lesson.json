@@ -104,20 +104,10 @@
         fake:"if((x>20) && (x<=30))"
 
         no:5,
-        question:"จากโปรแกรม ต้องกำหนดเงื่อนไขใดใน (…?…) โปรแกรมจะพิมพ์คำว่า “good bye”
-int x=5, y=3 ;
-
-if (…?…) {
-
-printf(“positive\n”);
-
-}
-
-printf(“good bye”);
-
-}",
+        question:"จากโปรแกรม ต้องกำหนดเงื่อนไขใดใน (…?…) โปรแกรมจะพิมพ์คำว่า “good bye”",
         answer:"x <= y",
-        fake:["x != y","x > y","x > 0"]
+        fake:"x != y",
+        img:"dicisionnum5"
 
     }]
 
@@ -128,21 +118,11 @@ printf(“good bye”);
     No:5
     Data: [{
     	no:1,
-        question:"#include<stdio.h>
-
-            main() 
-            {
-                    int x = 5;
-   
-                    if(x==5)
-                    {    
-                        if(x==5) break;
-                        printf("Hello");
-                     } 
-                printf("Hi");
-            }",
+        question: "ผลลัพธ์ที่ได้จากโปรแกรมนี้คืออะไร",
         answer:"compile error",
-        fake:"HiHello"
+        fake:"HiHello",
+        img:"scopnum1.jpg"
+
 
         no:2,
         question:"ฟังก์ชันที่สร้างขึ้นเองในภาษาซี  แบ่งออกเป็นกี่ประเภท?",
