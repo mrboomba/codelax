@@ -9,7 +9,7 @@
     	answer:"input (from Keyboard)",
     	fake:"input (from unknown device)",
         img:"flowchart1.jpg"
-       
+       ห
         no:2,
         question:"สัญลักษณ์นี้คืออะไร?",
         answer:"input (from unknown device)",
@@ -87,7 +87,7 @@
         fake:"ทำคำสั่งก่อนตรวจสอบเงื่อนไข"
 
         no:3,
-        ques3tion:"ข้อใดกล่าวถึงคำสั่ง  continue  ได้ถูกต้อง?",
+        question:"ข้อใดกล่าวถึงคำสั่ง  continue  ได้ถูกต้อง?",
         answer:"ใช้งานร่วมกับคำสั่ง while",
         fake:"ออกจากLoop และทำคำสั่งต่อไป"
 
