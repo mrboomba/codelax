@@ -69,8 +69,86 @@
         "answer":"LMX",
         "Type":{"enum":"fill"}
     }
-    
-
+    ,
+    {
+        "question":"",
+        "no":21,
+        "answer":"16",
+        "Type":{"enum":"choice"},
+        "fake":["4","8","32"]
+    }
+     ,
+    {
+        "question":"",
+        "no":22,
+        "answer":"13",
+        "Type":{"enum":"choice"},
+        "fake":["12","9","10"]
+    }
+     ,
+    {
+        "question":"",
+        "no":23,
+        "answer":"10011",
+        "Type":{"enum":"choice"},
+        "fake":["11111","11011","10101"]
+    }
+     ,
+    {
+        "question":"",
+        "no":24,
+        "answer":"x*y",
+        "Type":{"enum":"choice"},
+        "fake":["x*y+x","x+x*y","x+y"]
+    }
+     ,
+    {
+        "question":"",
+        "no":25,
+        "answer":"x^y",
+        "Type":{"enum":"choice"},
+        "fake":["x*y","x+x*y","x+y"]
+    }
+      ,
+    {
+        "question":"",
+        "no":26,
+        "answer":"1000 2000 4000 4000 2000 1000",
+        "Type":{"enum":"choice"},
+        "fake":["1000 2000 4000","1000 2000 4000 2000 1000","1000 2000 2000 1000"]
+    }
+      ,
+    {
+        "question":"",
+        "no":27,
+        "answer":"return 1 when n is power of 3,otherwise return 0",
+        "Type":{"enum":"choice"},
+        "fake":["return 1 when n is a multiple of 3, otherwise returns 0","It returns 0 when n is a multiple of 3, otherwise returns 1","It returns 0 when n is a power of 3, otherwise returns 1"]
+    }
+      ,
+    {
+        "question":"",
+        "no":28,
+        "answer":"5",
+        "Type":{"enum":"choice"},
+        "fake":["4","3","2"]
+    }
+      ,
+    {
+        "question":"",
+        "no":29,
+        "answer":"12",
+        "Type":{"enum":"choice"},
+        "fake":["4,"3","345"]
+    }
+      ,
+    {
+        "question":"",
+        "no":30,
+        "answer":"2",
+        "Type":{"enum":"choice"},
+        "fake":["5","8","9"]
+    }
 
     ]
 }]
