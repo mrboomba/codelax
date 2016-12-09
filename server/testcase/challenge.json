@@ -64,7 +64,7 @@
         "No":11,
         "question":"กำหนดให้ int a=7,b=3,c=2 จงหาผลลัพธ์ของ b/a+c*a",
         "answer":"14",
-        "fake":["10","11","12"],
+        "fake":["10","11","12"]
         
     },{
         "No":12,
@@ -120,6 +120,64 @@
         "answer":"4.00",
         "fake":["4","4.0","4.000"],
         "img":"challenge_20"
+    },{
+        "No":41,
+        "question":"โปรแกรมภาษาซีจะเริ่มทำงานจากฟังก์ชันใด",
+        "answer":"main",
+        "fake":["include","library","declare"]
+        
+    },{
+        "No":42,
+        "question":"คำสั่งใดไม่ใช่คำสั่งควบคุมให้คอมพิวเตอร์ทำงานในลักษณะวนซ้ำเป็นวงจร",
+        "answer":"if",
+        "fake":["for","while","do-while"]
+       
+    },{
+        "No":43,
+        "question":" ข้อใดเรียงล าดับขนาดข้อมูลของตัวแปรจากน้อยไปมากได้ถูกต้อง ",
+        "answer":"char, unsigned int, float, double",
+        "fake":["double, float, long, unsigned int","long, unsigned long, float, double","unsigned int, char, float, double"],
+        
+    },{
+        "No":44,
+        "question":"ค าสั่งใดที่ใช้ในการลบไฟล์",
+        "answer":"Delete",
+        "fake":["Remove","Open","Rename"]
+    },{
+        "No":45,
+        "question":"ข้อใดคือเลขฐาน 8 ของ AF16",
+        "answer":"236",
+        "fake":["184","219","257"]
+    },{
+        "No":46,
+        "question":"จากรูป โปรแกรมนี้เป็นโปรแกรมใด",
+        "answer":"โปรแกรมหาค่าเฉลี่ย",
+        "fake":["โปรแกรมหาค่ามากที่สุด","โปรแกรมหาค่าน้อยที่สุด","โปรแกรมหาค่าผลรวม"],
+        "img":"challenge_46_47.jpg"
+    },{
+        "No":47,
+        "question":"จากรูป ถ้า  ค่าของ  a = 5;  b = 10;  c = 15;   ค่า   d  มีค่าเท่าใด",
+        "answer":"10",
+        "fake":["5","15","15.00"],
+        "img":"challenge_46_47.jpg"
+    },{
+        "No":48,
+        "question":"",
+        "answer":"",
+        "fake":[""],
+        "img":""
+    },{
+        "No":49,
+        "question":"",
+        "answer":"",
+        "fake":[""],
+        "img":""
+    },{
+        "No":50,
+        "question":"",
+        "answer":"",
+        "fake":[""],
+        "img":""
     }
 
 ]
