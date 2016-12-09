@@ -1,17 +1,15 @@
-[{
-
+[
+{
         "No":1,
         "question":"ข้อมูลในข้อใด  หมายถึงตัวอักขระ?",
         "answer":"'5'",
         "fake":["(5)","5","\"5\""]
-        
     },{
         "No":2,
         "question":"ข้อมูลในข้อใด  หมายถึงข้อความ?",
         "answer":"\"5\"",
         "fake":["(5)","5","'5'"]
         
-
     },{
         "No":3,
         "question":"ข้อมูลในข้อใด  หมายถึงข้อความ?",
@@ -19,43 +17,11 @@
         "fake":["(5)","5","'5'"],
         "img":""
     }
-     ,
-    {
-        "question":"ข้อใด ไม่ใช่ ตัวดำเนินการเชิงตรรกะ",
-        "No":5,
-        "answer":"%",
-        "Type":{"enum":"choice"},
-        "fake":["&&","||","!"]
-    }
-    ,
-    {
-        "question":"ฟังก์ชันที่สร้างขึ้นเองในภาษาซีต้องเขียนอยู่ภายในเครื่องหมายอะไร",
-        "No":6,
-        "answer":"()",
-        "Type":{"enum":"choice"},
-        "fake":["{}","[]"," ถูกทุกข้อ"]
-    }
-    ,
-    {
-        "question":"int[5]={15.5,65.2,45.8,25.8,10.4};a[1]มีค่าเท่าไร",
-        "No":7,
-        "answer":"65.2",
-        "Type":{"enum":"choice"},
-        "fake":["15.5","45.8","25.8"]
-    }
-     ,
-    {
-        "question":"จงหาผลลัพธ์ของโปรแกรมนี้int main(){char char1 = 'X';char char2 = 'M';char char3 = 'L';printf(\"The reverse of %c%c%c is %c%c%c\n\",char1, char2, char3,char3, char2, char1);return 0;}",
-        "No":8,
-        "answer":"LMX",
-        "Type":{"enum":"fill"}
-    }
     ,
     {
         "question":"",
         "No":21,
         "answer":"16",
-        "Type":{"enum":"choice"},
         "fake":["4","8","32"]
     }
      ,
@@ -63,7 +29,6 @@
         "question":"",
         "No":22,
         "answer":"13",
-        "Type":{"enum":"choice"},
         "fake":["12","9","10"]
     }
      ,
@@ -71,7 +36,6 @@
         "question":"",
         "No":23,
         "answer":"10011",
-        "Type":{"enum":"choice"},
         "fake":["11111","11011","10101"]
     }
      ,
@@ -79,7 +43,6 @@
         "question":"",
         "No":24,
         "answer":"x*y",
-        "Type":{"enum":"choice"},
         "fake":["x*y+x","x+x*y","x+y"]
     }
      ,
@@ -87,7 +50,6 @@
         "question":"",
         "No":25,
         "answer":"x^y",
-        "Type":{"enum":"choice"},
         "fake":["x*y","x+x*y","x+y"]
     }
       ,
@@ -95,7 +57,6 @@
         "question":"",
         "No":26,
         "answer":"1000 2000 4000 4000 2000 1000",
-        "Type":{"enum":"choice"},
         "fake":["1000 2000 4000","1000 2000 4000 2000 1000","1000 2000 2000 1000"]
     }
       ,
@@ -103,7 +64,6 @@
         "question":"",
         "No":27,
         "answer":"return 1 when n is power of 3,otherwise return 0",
-        "Type":{"enum":"choice"},
         "fake":["return 1 when n is a multiple of 3, otherwise returns 0","It returns 0 when n is a multiple of 3, otherwise returns 1","It returns 0 when n is a power of 3, otherwise returns 1"]
     }
       ,
@@ -111,7 +71,6 @@
         "question":"",
         "No":28,
         "answer":"5",
-        "Type":{"enum":"choice"},
         "fake":["4","3","2"]
     }
       ,
@@ -119,7 +78,6 @@
         "question":"",
         "No":29,
         "answer":"12",
-        "Type":{"enum":"choice"},
         "fake":["4","3","345"]
     }
       ,
@@ -127,8 +85,109 @@
         "question":"",
         "No":30,
         "answer":"2",
-        "Type":{"enum":"choice"},
         "fake":["5","8","9"]
-    }
+    },{
+        "No":4,
+        "question":"จากรูป หลังจากจบการทำงานแล้ว  ค่าของ  i มีค่าเป็นเท่าใด",
+        "answer":"ไม่มีข้อถูก",
+        "fake":["7","9","11"],
+        "img":"challenge_4.jpg"
+    },{
+        "No":5,
+        "question":"จากรูป ส่วนของโปรแกรมนี้ จะให้ค่าผลลัพธ์เป็นอย่างไร",
+        "answer":"5",
+        "fake":["5.24","5.2","0"],
+        "img":"challenge_5.jpg"
+    },{
+        "No":6,
+        "question":"ข้อใดเป็นผลลัพธ์ที่ได้จากโค้ด printf(“‘I am a programmer.’”);",
+        "answer":"‘I am a programmer.’",
+        "fake":["\"‘I am a programmer.’\"","I am a programmer","\"I am a programmer.\""]
+        
+    },{
+        "No":7,
+        "question":"ผลลัพธ์ของโค้ด printf(\"%d + %d = %d\", 1, 2, 3); คือข้อใด",
+        "answer":"1 + 2 = 3",
+        "fake":["%d + %d = %d","%d + %d = %d,1,2,3","ไม่มีข้อถูก"]
+       
+    },{
+        "No":8,
+        "question":"\"…ไม่ว่าเงื่อนไขจะจริงหรือไม่ คำสั่งทุกคำสั่งจะถูกทำงานไปแล้ว 1 ครั้งเสมอ…\" ข้อความนี้เกี่ยวข้องกับคำสั่งใด",
+        "answer":"do-while",
+        "fake":["if-else","while","switch case"]
+        
+    },{
+        "No":9,
+        "question":"จากรูป ข้อใดไม่ถูกต้อง",
+        "answer":"x++ คือเพิ่มค่า x ทีละ 2",
+        "fake":["ตัวแปรชื่อ x","ให้พิมพ์ค่า x ซ้ำ ๆ กัน โดยห่างกันเป็นระยะ ๆ ใน 1 บรรทัด","เมื่อ x มีค่ามากกว่า 8 จะทำให้เงื่อนไขเป็นเท็จ"],
+        "img":"challenge_9"
+    },{
+        "No":10,
+        "question":"ข้อใดเป็นชื่อตัวแปรไม่ได้",
+        "answer":"%boy",
+        "fake":["address_2","g5","customerName"]
+        
+    },{
+        "No":11,
+        "question":"กำหนดให้ int a=7,b=3,c=2 จงหาผลลัพธ์ของ b/a+c*a",
+        "answer":"14",
+        "fake":["10","11","12"]
+        
+    },{
+        "No":12,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input = 15",
+        "answer":"15 is an odd integer",
+        "fake":["15 is an even integer","15 is an odd ","15 is an even"],
+        "img":"challenge_12"
+    },{
+        "No":13,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 20 50",
+        "answer":"70",
+        "fake":["50","20","80"],
+        "img":"challenge_13"
+    },{
+        "No":14,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"LMX",
+        "fake":["LXM","MXL","XML"],
+        "img":"challenge_14"
+    },{
+        "No":15,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"33",
+        "fake":["23","3","13"],
+        "img":"challenge_15"
+    },{
+        "No":16,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 45",
+        "answer":"113.00",
+        "fake":["113","113.000000","133.0"],
+        "img":"challenge_16"
+    },{
+        "No":17,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 15",
+        "answer":"9.320568",
+        "fake":["9","9.3","10"],
+        "img":"challenge_17"
+    },{
+        "No":18,
+        "question":"จากโปรแกรมจงเติมคำตอบที่ถูกต้องใน <...?..>",
+        "answer":"%f",
+        "fake":["%d","%c","%.2d"],
+        "img":"challenge_18"
+    },{
+        "No":19,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 50 70",
+        "answer":"60",
+        "fake":["50","70","55"],
+        "img":"challenge_19"
+    },{
+        "No":20,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"4.00",
+        "fake":["4","4.0","4.000"],
+        "img":"challenge_20"
 
+    }
 ]
