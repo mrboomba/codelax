@@ -1,47 +1,28 @@
 [{
-	"Title": "Level1",
-    "No":1,
-    "Data": [
-    {
-        "question":"คำสั่งที่ใช้ในการแสดงค่าของภาษาซีคือข้อใด",
-        "no":1,
-        "answer":"printf",
-        "Type":{"enum":"choice"},
-        "fake":["scanf","cin","cout"]
 
-    }
-    ,
-    
-    {
-        "question":"คำสั่งที่ใช้ในการรับค่าของภาษาซีคือข้อใด",
-        "no":2,
-        "answer":"scanf",
-        "Type":{"enum":"choice"},
-        "fake":["system.out.printf","printf","cout"]
+        "No":1,
+        "question":"ข้อมูลในข้อใด  หมายถึงตัวอักขระ?",
+        "answer":"'5'",
+        "fake":["(5)","5","\"5\""]
+        
+    },{
+        "No":2,
+        "question":"ข้อมูลในข้อใด  หมายถึงข้อความ?",
+        "answer":"\"5\"",
+        "fake":["(5)","5","'5'"]
+        
 
-    }
-    ,
-    {
-        "question":"library ใดสามารถใช้คำสั่ง pow();",
-        "no":3,
-        "answer":"Math.h",
-        "Type":{"enum":"choice"},
-        "fake":["time.h","stdio.h","headerfile.h"]
-
-    }
-     ,
-    {
-        "question":"ข้อใด ไม่ใช่ คำสั่งพรีโพรสเซสเซอร์ในภาษาซี",
-        "no":4,
-        "answer":"#error",
-        "Type":{"enum":"choice"},
-        "fake":["#include","#define","#const"]
-
+    },{
+        "No":3,
+        "question":"ข้อมูลในข้อใด  หมายถึงข้อความ?",
+        "answer":"\"5\"",
+        "fake":["(5)","5","'5'"],
+        "img":""
     }
      ,
     {
         "question":"ข้อใด ไม่ใช่ ตัวดำเนินการเชิงตรรกะ",
-        "no":5,
+        "No":5,
         "answer":"%",
         "Type":{"enum":"choice"},
         "fake":["&&","||","!"]
@@ -49,7 +30,7 @@
     ,
     {
         "question":"ฟังก์ชันที่สร้างขึ้นเองในภาษาซีต้องเขียนอยู่ภายในเครื่องหมายอะไร",
-        "no":6,
+        "No":6,
         "answer":"()",
         "Type":{"enum":"choice"},
         "fake":["{}","[]"," ถูกทุกข้อ"]
@@ -57,7 +38,7 @@
     ,
     {
         "question":"int[5]={15.5,65.2,45.8,25.8,10.4};a[1]มีค่าเท่าไร",
-        "no":7,
+        "No":7,
         "answer":"65.2",
         "Type":{"enum":"choice"},
         "fake":["15.5","45.8","25.8"]
@@ -65,14 +46,14 @@
      ,
     {
         "question":"จงหาผลลัพธ์ของโปรแกรมนี้int main(){char char1 = 'X';char char2 = 'M';char char3 = 'L';printf(\"The reverse of %c%c%c is %c%c%c\n\",char1, char2, char3,char3, char2, char1);return 0;}",
-        "no":8,
+        "No":8,
         "answer":"LMX",
         "Type":{"enum":"fill"}
     }
     ,
     {
         "question":"",
-        "no":21,
+        "No":21,
         "answer":"16",
         "Type":{"enum":"choice"},
         "fake":["4","8","32"]
@@ -80,7 +61,7 @@
      ,
     {
         "question":"",
-        "no":22,
+        "No":22,
         "answer":"13",
         "Type":{"enum":"choice"},
         "fake":["12","9","10"]
@@ -88,7 +69,7 @@
      ,
     {
         "question":"",
-        "no":23,
+        "No":23,
         "answer":"10011",
         "Type":{"enum":"choice"},
         "fake":["11111","11011","10101"]
@@ -96,7 +77,7 @@
      ,
     {
         "question":"",
-        "no":24,
+        "No":24,
         "answer":"x*y",
         "Type":{"enum":"choice"},
         "fake":["x*y+x","x+x*y","x+y"]
@@ -104,7 +85,7 @@
      ,
     {
         "question":"",
-        "no":25,
+        "No":25,
         "answer":"x^y",
         "Type":{"enum":"choice"},
         "fake":["x*y","x+x*y","x+y"]
@@ -112,7 +93,7 @@
       ,
     {
         "question":"",
-        "no":26,
+        "No":26,
         "answer":"1000 2000 4000 4000 2000 1000",
         "Type":{"enum":"choice"},
         "fake":["1000 2000 4000","1000 2000 4000 2000 1000","1000 2000 2000 1000"]
@@ -120,7 +101,7 @@
       ,
     {
         "question":"",
-        "no":27,
+        "No":27,
         "answer":"return 1 when n is power of 3,otherwise return 0",
         "Type":{"enum":"choice"},
         "fake":["return 1 when n is a multiple of 3, otherwise returns 0","It returns 0 when n is a multiple of 3, otherwise returns 1","It returns 0 when n is a power of 3, otherwise returns 1"]
@@ -128,7 +109,7 @@
       ,
     {
         "question":"",
-        "no":28,
+        "No":28,
         "answer":"5",
         "Type":{"enum":"choice"},
         "fake":["4","3","2"]
@@ -136,19 +117,18 @@
       ,
     {
         "question":"",
-        "no":29,
+        "No":29,
         "answer":"12",
         "Type":{"enum":"choice"},
-        "fake":["4,"3","345"]
+        "fake":["4","3","345"]
     }
       ,
     {
         "question":"",
-        "no":30,
+        "No":30,
         "answer":"2",
         "Type":{"enum":"choice"},
         "fake":["5","8","9"]
     }
 
-    ]
-}]
+]
