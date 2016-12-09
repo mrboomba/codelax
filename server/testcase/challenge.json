@@ -121,7 +121,7 @@
         "question":"จากรูป ข้อใดไม่ถูกต้อง",
         "answer":"x++ คือเพิ่มค่า x ทีละ 2",
         "fake":["ตัวแปรชื่อ x","ให้พิมพ์ค่า x ซ้ำ ๆ กัน โดยห่างกันเป็นระยะ ๆ ใน 1 บรรทัด","เมื่อ x มีค่ามากกว่า 8 จะทำให้เงื่อนไขเป็นเท็จ"],
-        "img":"challenge_9"
+        "img":"challenge_9.jpg"
     },{
         "No":10,
         "question":"ข้อใดเป็นชื่อตัวแปรไม่ได้",
@@ -139,55 +139,127 @@
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input = 15",
         "answer":"15 is an odd integer",
         "fake":["15 is an even integer","15 is an odd ","15 is an even"],
-        "img":"challenge_12"
+        "img":"challenge_12.jpg"
     },{
         "No":13,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 20 50",
         "answer":"70",
         "fake":["50","20","80"],
-        "img":"challenge_13"
+        "img":"challenge_13.jpg"
     },{
         "No":14,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
         "answer":"LMX",
         "fake":["LXM","MXL","XML"],
-        "img":"challenge_14"
+        "img":"challenge_14.jpg"
     },{
         "No":15,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
         "answer":"33",
         "fake":["23","3","13"],
-        "img":"challenge_15"
+        "img":"challenge_15.jpg"
     },{
         "No":16,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 45",
         "answer":"113.00",
         "fake":["113","113.000000","133.0"],
-        "img":"challenge_16"
+        "img":"challenge_16.jpg"
     },{
         "No":17,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 15",
         "answer":"9.320568",
         "fake":["9","9.3","10"],
-        "img":"challenge_17"
+        "img":"challenge_17.jpg"
     },{
         "No":18,
         "question":"จากโปรแกรมจงเติมคำตอบที่ถูกต้องใน <...?..>",
         "answer":"%f",
         "fake":["%d","%c","%.2d"],
-        "img":"challenge_18"
+        "img":"challenge_18.jpg"
     },{
         "No":19,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรมเมื่อกำหนดให้ input คือ 50 70",
         "answer":"60",
         "fake":["50","70","55"],
-        "img":"challenge_19"
+        "img":"challenge_19.jpg"
     },{
         "No":20,
         "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
         "answer":"4.00",
         "fake":["4","4.0","4.000"],
-        "img":"challenge_20"
+        "img":"challenge_20.jpg"
+
+    },{
+        "No":31,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"-5",
+        "fake":["-4","5","3"],
+        "img":"challenge_31.jpg"
+
+    },{
+        "No":32,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"9",
+        "fake":["5","4","8"],
+        "img":"challenge_32.jpg"
+
+    },{
+        "No":33,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"compile error",
+        "fake":["5","4","8"],
+        "img":"challenge_33.jpg"
+
+    },{
+        "No":34,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"compile error",
+        "fake":["5","4","8"],
+        "img":"34.jpg"
+
+    },{
+        "No":35,
+        "question":"สัญลักษณ์ใดไม่ใช่สัญลักษณ์ใน logical",
+        "answer":"|",
+        "fake":["||","&&","!"]
+
+    },{
+        "No":36,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"9",
+        "fake":["4","5","compile error"],
+        "img":"36.jpg"
+
+    },{
+        "No":37,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"03",
+        "fake":["5","3","05"],
+        "img":"37.jpg"
+
+    },{
+        "No":38,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"5",
+        "fake":["2","3","4"],
+        "img":"38.jpg"
+
+    },{
+        "No":39,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"20",
+        "fake":["30","10","40"],
+        "img":"39.jpg"
+
+    },{
+        "No":40,
+        "question":"ผลลัพธ์ที่ได้จากการรันโปรแกรม",
+        "answer":"30",
+        "fake":["20","10","40"],
+        "img":"40.jpg"
 
     }
+
+
+
 ]
