@@ -17,5 +17,5 @@ var challengeSchema = new mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('Challenge',exerciseSchema);
+module.exports = mongoose.model('Challenge',challengeSchema);
 
