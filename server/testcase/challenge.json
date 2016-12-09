@@ -1,0 +1,76 @@
+[{
+	"Title": "Level1",
+    "No":1,
+    "Data": [
+    {
+        "question":"คำสั่งที่ใช้ในการแสดงค่าของภาษาซีคือข้อใด",
+        "no":1,
+        "answer":"printf",
+        "Type":{"enum":"choice"},
+        "fake":["scanf","cin","cout"]
+
+    }
+    ,
+    
+    {
+        "question":"คำสั่งที่ใช้ในการรับค่าของภาษาซีคือข้อใด",
+        "no":2,
+        "answer":"scanf",
+        "Type":{"enum":"choice"},
+        "fake":["system.out.printf","printf","cout"]
+
+    }
+    ,
+    {
+        "question":"library ใดสามารถใช้คำสั่ง pow();",
+        "no":3,
+        "answer":"Math.h",
+        "Type":{"enum":"choice"},
+        "fake":["time.h","stdio.h","headerfile.h"]
+
+    }
+     ,
+    {
+        "question":"ข้อใด ไม่ใช่ คำสั่งพรีโพรสเซสเซอร์ในภาษาซี",
+        "no":4,
+        "answer":"#error",
+        "Type":{"enum":"choice"},
+        "fake":["#include","#define","#const"]
+
+    }
+     ,
+    {
+        "question":"ข้อใด ไม่ใช่ ตัวดำเนินการเชิงตรรกะ",
+        "no":5,
+        "answer":"%",
+        "Type":{"enum":"choice"},
+        "fake":["&&","||","!"]
+    }
+    ,
+    {
+        "question":"ฟังก์ชันที่สร้างขึ้นเองในภาษาซีต้องเขียนอยู่ภายในเครื่องหมายอะไร",
+        "no":6,
+        "answer":"()",
+        "Type":{"enum":"choice"},
+        "fake":["{}","[]"," ถูกทุกข้อ"]
+    }
+    ,
+    {
+        "question":"int[5]={15.5,65.2,45.8,25.8,10.4};a[1]มีค่าเท่าไร",
+        "no":7,
+        "answer":"65.2",
+        "Type":{"enum":"choice"},
+        "fake":["15.5","45.8","25.8"]
+    }
+     ,
+    {
+        "question":"จงหาผลลัพธ์ของโปรแกรมนี้int main(){char char1 = 'X';char char2 = 'M';char char3 = 'L';printf(\"The reverse of %c%c%c is %c%c%c\n\",char1, char2, char3,char3, char2, char1);return 0;}",
+        "no":8,
+        "answer":"LMX",
+        "Type":{"enum":"fill"}
+    }
+    
+
+
+    ]
+}]

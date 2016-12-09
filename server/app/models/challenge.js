@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var exerciseSchema = new mongoose.Schema({
+var challengeSchema = new mongoose.Schema({
 
     No:{
     	type:Number,
@@ -8,9 +8,6 @@ var exerciseSchema = new mongoose.Schema({
     },
     question:{
     	type:String
-    },
-    no:{
-    	type:Number
     },
     answer:{
     	type:String
@@ -20,5 +17,5 @@ var exerciseSchema = new mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('Exercise',exerciseSchema);
+module.exports = mongoose.model('Challenge',exerciseSchema);
 
