@@ -12,10 +12,10 @@
         
     },{
         "No":3,
-        "question":"ข้อมูลในข้อใด  หมายถึงข้อความ?",
-        "answer":"\"5\"",
-        "fake":["(5)","5","'5'"],
-        "img":""
+        "question":"3. ข้อใดคือรูปแบบที่ถูกต้องในการอ้างถึงสมาชิกในตัวแปรประเภทโครงสร้าง",
+        "answer":"struct_var.member_name",
+        "fake":["struct_var,member_name","struct_var:member_name","struct_var= member_name"]
+        
     }
     ,
     {
@@ -230,7 +230,7 @@
         "img":"challenge_46_47.jpg"
     },{
         "No":48,
-        "question":"จากรูป จงหาผลลัพธ์ของ   value1 , value2  ",
+        "question":"จากรูป จงหาผลลัพธ์ของ  value1 , value2 ",
         "answer":"21,21",
         "fake":["20,21","21,20","20,20"],
         "img":"challenge_48.jpg"
