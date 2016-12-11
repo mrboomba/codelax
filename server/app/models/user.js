@@ -5,7 +5,8 @@ var bcrypt = require('bcrypt-nodejs');
 var userSchema = new mongoose.Schema({
 
     auth: {
-        username: String,
+        username: {type:String,
+                    unique:true},
         password: String,
         token: String
     },
@@ -22,12 +23,9 @@ var userSchema = new mongoose.Schema({
             type: Number,
             defualt: 0
         },
-        acheivement:[{
-            type:  mongoose.Schema.Types.ObjectId,
-            ref: 'Acheivement'
-        }]
     },
-    topic: [{type:  mongoose.Schema.Types.ObjectId,ref : 'Topic' }]
+    friend:[{username:Number}],
+    match:[{username:Number}]
 
 });
 
