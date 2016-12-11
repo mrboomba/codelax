@@ -14,8 +14,7 @@
         "No":3,
         "question":"ข้อมูลในข้อใด  หมายถึงข้อความ?",
         "answer":"\"5\"",
-        "fake":["(5)","5","'5'"],
-        "img":""
+        "fake":["(5)","5","'5'"]
     }
     ,
     {
@@ -204,7 +203,7 @@
         "No":43,
         "question":" ข้อใดเรียงล าดับขนาดข้อมูลของตัวแปรจากน้อยไปมากได้ถูกต้อง ",
         "answer":"char, unsigned int, float, double",
-        "fake":["double, float, long, unsigned int","long, unsigned long, float, double","unsigned int, char, float, double"],
+        "fake":["double, float, long, unsigned int","long, unsigned long, float, double","unsigned int, char, float, double"]
         
     },{
         "No":44,

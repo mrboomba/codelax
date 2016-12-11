@@ -16,5 +16,6 @@ router = require('./challenge')(router);
 router = require('./user')(router);
 router = require('./testpic')(router);
 router = require('./lesson')(router);
+router = require('./match')(router);
 module.exports = router;
 
