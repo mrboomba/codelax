@@ -22,70 +22,80 @@
         "question":"",
         "No":21,
         "answer":"16",
-        "fake":["4","8","32"]
+        "fake":["4","8","32"],
+        "img":"21.jpg"
     }
      ,
     {
         "question":"",
         "No":22,
         "answer":"13",
-        "fake":["12","9","10"]
+        "fake":["12","9","10"],
+        "img":"22.jpg"
     }
      ,
     {
         "question":"",
         "No":23,
         "answer":"10011",
-        "fake":["11111","11011","10101"]
+        "fake":["11111","11011","10101"],
+        "img":"23.jpg"
     }
      ,
     {
         "question":"",
         "No":24,
         "answer":"x*y",
-        "fake":["x*y+x","x+x*y","x+y"]
+        "fake":["x*y+x","x+x*y","x+y"],
+        "img":"24.jpg"
     }
      ,
     {
         "question":"",
         "No":25,
         "answer":"x^y",
-        "fake":["x*y","x+x*y","x+y"]
+        "fake":["x*y","x+x*y","x+y"],
+        "img":"25.jpg"
     }
       ,
     {
         "question":"",
         "No":26,
         "answer":"1000 2000 4000 4000 2000 1000",
-        "fake":["1000 2000 4000","1000 2000 4000 2000 1000","1000 2000 2000 1000"]
+        "fake":["1000 2000 4000","1000 2000 4000 2000 1000","1000 2000 2000 1000"],
+        "img":"26.jpg"
     }
       ,
     {
         "question":"",
         "No":27,
         "answer":"return 1 when n is power of 3,otherwise return 0",
-        "fake":["return 1 when n is a multiple of 3, otherwise returns 0","It returns 0 when n is a multiple of 3, otherwise returns 1","It returns 0 when n is a power of 3, otherwise returns 1"]
+        "fake":["return 1 when n is a multiple of 3, otherwise returns 0","It returns 0 when n is a multiple of 3, otherwise returns 1","It returns 0 when n is a power of 3, otherwise returns 1"],
+        "img":"27.jpg"
     }
       ,
     {
         "question":"",
         "No":28,
         "answer":"5",
-        "fake":["4","3","2"]
+        "fake":["4","3","2"],
+        "img":"28.jpg"
     }
       ,
     {
         "question":"",
         "No":29,
         "answer":"12",
-        "fake":["4","3","345"]
+        "fake":["4","3","345"],
+        "img":"29.jpg"
     }
       ,
     {
         "question":"",
         "No":30,
         "answer":"2",
-        "fake":["5","8","9"]
+        "fake":["5","8","9"],
+        "img":"30.jpg"
     },{
         "No":4,
         "question":"จากรูป หลังจากจบการทำงานแล้ว  ค่าของ  i มีค่าเป็นเท่าใด",
