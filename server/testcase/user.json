@@ -7,7 +7,9 @@
         "name": {
             "firstname": "Thitirat",
             "lastname": "Thongthaew"
-        }
+        },
+        "challenge":0,
+        "lesson":0
     }
 
 },{
@@ -19,7 +21,9 @@
         "name": {
             "firstname": "Nutchaya",
             "lastname": "Chualee"
-        }
+        },
+         "challenge":0,
+        "lesson":0
     }
   
 
@@ -34,6 +38,9 @@
             "firstname": "Thanavith",
             "lastname": "Thanataweeroj"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },
 {
@@ -46,6 +53,9 @@
             "firstname": "Patpimol",
             "lastname": "Jamsirirojrat"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
     
 },{
@@ -58,6 +68,9 @@
             "firstname": "Sumonta",
             "lastname": "Sangpaen"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -69,6 +82,9 @@
             "firstname": "Piyaporn",
             "lastname": "Turongkakul"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -80,6 +96,9 @@
             "firstname": "Piyawat",
             "lastname": "Yusuk"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -91,6 +110,9 @@
             "firstname": "Janjira",
             "lastname": "Naisupab"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -102,6 +124,9 @@
             "firstname": "Romchat",
             "lastname": "Katesakorn"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -113,6 +138,9 @@
             "firstname": "Visaruth",
             "lastname": "Panniam"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -124,6 +152,9 @@
             "firstname": "Puwith",
             "lastname": "Pamorn"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -135,6 +166,9 @@
             "firstname": "Methawee",
             "lastname": "Juntorn"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -146,6 +180,9 @@
             "firstname": "Thanapa",
             "lastname": "Chittiimongkol"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -157,6 +194,9 @@
             "firstname": "Thanakorn",
             "lastname": "Sawanglok"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 },{
       "auth": {
@@ -168,5 +208,8 @@
             "firstname": "Sorrawit",
             "lastname": "Chotana"
         }
+        ,
+         "challenge":0,
+        "lesson":0
     }
 }]
