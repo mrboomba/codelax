@@ -99,5 +99,29 @@
         }]
     },
     "topic": [{"type:  mongoose.Schema.Types.ObjectId,ref : 'Topic'" }]
+    
+},{
+      "auth": {
+            "username": "5709611478",
+            "password": "5709611478",
+    },
+    "information": {
+        "name": {
+            "firstname": "Sumonta",
+            "lastname": "Sangpaen"
+        },
+        "challenge":{
+            
+        },
+        "lesson":{
+            "type": "Number",
+            "defualt": 0
+        },
+        "acheivement":[{
+            "type":  "mongoose.Schema.Types.ObjectId",
+            "ref": "Acheivement"
+        }]
+    },
+    "topic": [{"type:  mongoose.Schema.Types.ObjectId,ref : 'Topic'" }]
 
 }]
