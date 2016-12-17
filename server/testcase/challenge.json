@@ -19,7 +19,7 @@
     }
     ,
     {
-        "question":"",
+        "question":"ผลลัพธ์มีค่าเท่าใด",
         "No":21,
         "answer":"16",
         "fake":["4","8","32"],
@@ -27,7 +27,7 @@
     }
      ,
     {
-        "question":"",
+        "question":"ผลลัพธ์จะมีค่าเท่าใดเมื่อส่งค่า fun(4,3)",
         "No":22,
         "answer":"13",
         "fake":["12","9","10"],
@@ -35,7 +35,7 @@
     }
      ,
     {
-        "question":"",
+        "question":"ผลหน้าจอจะมีค่าเท่าใดเมื่อ n = 25",
         "No":23,
         "answer":"10011",
         "fake":["11111","11011","10101"],
@@ -43,7 +43,7 @@
     }
      ,
     {
-        "question":"",
+        "question":"ลำดับการทำงานของ function เป็นอย่างไร",
         "No":24,
         "answer":"x*y",
         "fake":["x*y+x","x+x*y","x+y"],
@@ -51,7 +51,7 @@
     }
      ,
     {
-        "question":"",
+        "question":"ลำดับการทำงานของ function fun2() เป็นอย่างไร",
         "No":25,
         "answer":"x^y",
         "fake":["x*y","x+x*y","x+y"],
@@ -59,7 +59,7 @@
     }
       ,
     {
-        "question":"",
+        "question":"ผลลัพธ์มีค่าเท่าใด",
         "No":26,
         "answer":"1000 2000 4000 4000 2000 1000",
         "fake":["1000 2000 4000","1000 2000 4000 2000 1000","1000 2000 2000 1000"],
@@ -67,7 +67,7 @@
     }
       ,
     {
-        "question":"",
+        "question":"ลำดับการทำงานของ function เป็นอย่างไร",
         "No":27,
         "answer":"return 1 when n is power of 3,otherwise return 0",
         "fake":["return 1 when n is a multiple of 3, otherwise returns 0","It returns 0 when n is a multiple of 3, otherwise returns 1","It returns 0 when n is a power of 3, otherwise returns 1"],
@@ -75,7 +75,7 @@
     }
       ,
     {
-        "question":"",
+        "question":"ผลลัพธ์มีค่าเท่าใด",
         "No":28,
         "answer":"5",
         "fake":["4","3","2"],
@@ -83,7 +83,7 @@
     }
       ,
     {
-        "question":"",
+        "question":"ผลลัพธ์มีค่าเท่าใด",
         "No":29,
         "answer":"12",
         "fake":["4","3","345"],
@@ -91,7 +91,7 @@
     }
       ,
     {
-        "question":"",
+        "question":"ผลลัพธ์มีค่าเท่าใด",
         "No":30,
         "answer":"2",
         "fake":["5","8","9"],
