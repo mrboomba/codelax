@@ -41,7 +41,9 @@
         ,
          "challenge":0,
         "lesson":0
-    }
+    },
+    "friend":[5709611676,5709611791,5709611478]
+
 },
 {
        "auth": {
@@ -56,7 +58,8 @@
         ,
          "challenge":0,
         "lesson":0
-    }
+    },
+    "friend":[5709611759]
     
 },{
       "auth": {
@@ -207,6 +210,90 @@
         "name": {
             "firstname": "Sorrawit",
             "lastname": "Chotana"
+        }
+        ,
+         "challenge":0,
+        "lesson":0
+    }
+},{
+      "auth": {
+            "username": "5909610288",
+            "password": "5909610288"
+    },
+    "information": {
+        "name": {
+            "firstname": "Seksit",
+            "lastname": "Sankosik"
+        }
+        ,
+         "challenge":0,
+        "lesson":0
+    }
+},{
+      "auth": {
+            "username": "5909610668",
+            "password": "5909610668"
+    },
+    "information": {
+        "name": {
+            "firstname": "Wattana",
+            "lastname": "Pongpeera"
+        }
+        ,
+         "challenge":0,
+        "lesson":0
+    }
+},{
+      "auth": {
+            "username": "5909610254",
+            "password": "5909610254"
+    },
+    "information": {
+        "name": {
+            "firstname": "Thitiwat",
+            "lastname": "Saengtaratip"
+        }
+        ,
+         "challenge":0,
+        "lesson":0
+    }
+},{
+      "auth": {
+            "username": "5809610669",
+            "password": "5809610669"
+    },
+    "information": {
+        "name": {
+            "firstname": "Supachai",
+            "lastname": "Treeprateepkul"
+        }
+        ,
+         "challenge":0,
+        "lesson":0
+    }
+},{
+      "auth": {
+            "username": "5809652240",
+            "password": "5809652240"
+    },
+    "information": {
+        "name": {
+            "firstname": "Pattheera",
+            "lastname": "Sriwipha"
+        }
+        ,
+         "challenge":0,
+        "lesson":0
+    }
+},{
+      "auth": {
+            "username": "5809652034",
+            "password": "5809652034"
+    },
+    "information": {
+        "name": {
+            "firstname": "Punyisa",
+            "lastname": "Rattanakum"
         }
         ,
          "challenge":0,

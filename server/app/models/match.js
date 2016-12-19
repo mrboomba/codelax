@@ -8,7 +8,11 @@ var matchSchema = new mongoose.Schema({
     userAnswer:[String],
     rivalAnswer:[String],
     userPoint:{type:Number,defualt:0},
-    rivalPoint:{type:Number,defualt:0}
+    rivalPoint:{type:Number,defualt:0},
+    complete:{
+    	type:Number,
+    	defualt:0
+    }
 
 });
 

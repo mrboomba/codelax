@@ -4,6 +4,7 @@ var _ = require('underscore');
 var userModels = require('../app/models/user');
 var challengeModels = require('../app/models/challenge');
 var lessonModels = require('../app/models/lesson');
+var matchModels = require('../app/models/match');
 // var Product = require('../models/product');
 // var User = require('../models/user');
 // var WStorage = require('../models/weeklystorage');
@@ -15,6 +16,8 @@ function createDB() {
         var lessonJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/lesson.json', 'utf8'));
         var userJson = JSON.parse(require('fs').readFileSync(__dirname + '/../testcase/user.json', 'utf8'));
         console.log(123);
+        matchModels.remove({},function(error){
+          if (error) reject(error);
        userModels.remove({}, function(error) {
             if (error) reject(error);
            challengeModels.remove({},function(error){
@@ -26,10 +29,11 @@ function createDB() {
                 if (error) reject(error);
                lessonModels.create(lessonJson, function(error) {
                    if (error) reject(error);
-                   userModels.create(userJson,function(err){
+                   userModels.create(userJson,function(err,users){  
                       if(err)  reject(err);         
                         resolve();
                     });
+                 });
                   });
                 });
               });

@@ -49,6 +49,23 @@ function getImage(req,res){
   })
 };
 
+function getAnswer(req,res){
+  Challenge.find({No:req.params.number},function(err,challenge){
+      if(err){
+        res.status(500).json({
+                message: err
+            });
+      }
+      else{
+        res.status(200).json({
+              message:"success",
+              question:challenge[0].question,
+              answer:challenge[0].answer
+            });
+      }
+  })
+}
+
 
 module.exports = function(router) {
 
@@ -56,6 +73,8 @@ module.exports = function(router) {
   .get(getChallenge)
   router.route('/challenge/pic/:number')
   .get(getImage)
+  router.route('/challenge/:number/key')
+  .get(getAnswer)
 
   return router;
 };

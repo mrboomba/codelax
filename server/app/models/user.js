@@ -24,8 +24,12 @@ var userSchema = new mongoose.Schema({
             defualt: 0
         },
     },
-    friend:[{username:Number}],
-    match:[{username:Number}]
+    friend:[{type:Number
+            }],
+    match:[{rival:Number,
+            createdAt: { type: Date , default: Date.now }
+        }],
+    complete:[{type:Number}]
 
 });
 
